@@ -1,39 +1,39 @@
-id;nev;motor;url
-1;Bérc Kabin;saját (WordPress);https://berckabin.hu/foglalas/
-2;Börzsönyi Ékszerdoboz;WP Booking Calendar;https://borzsonyiekszerdoboz.hu/foglalas/
-3;Lomboldal;WP Booking Calendar;https://www.lomboldal.hu/arak-foglalas/
-4;BOHÉM Kabin & Wellness;Previo;https://bohemkabin.hu/foglalas/
-5;Aligvárlak Vendégház;WP Booking Calendar;https://xn--aligvrlak-vendghz-bpbl1n.hu/foglalas/
-6;3SIDE Dunakanyar;RESnWEB;https://3sidekismaros.hu/foglalas/
-7;Tölgy kabin;WP Booking System;https://tolgykabin.hu/foglalas/
-8;BörzsönyPagony;WP Booking System;https://www.borzsonypagony.hu/booking/
-9;LombTerasz;RESnWEB;https://lombterasz.hu/foglalas/
-10;Maroska (Forest Cabin, Pine, Lodge);RESnWEB;https://maroska.hu/foglalas/
-13;A Ház;saját naptár;https://ahazkismaros.hu/ahaz/foglalas_ar.php
-14;A Hely;saját naptár;https://ahazkismaros.hu/ahely/foglalas_ar.php
-15;Medvetalp Vendégház;WP Booking System (ajánlatkérés);https://www.medvetalpvendeghaz.hu/
-16;Mesebeli Vendégház / Mesebeli ház;saját naptáras időpontkérés;https://mesebelivendeghaz.hu/
-18;Kiskalács vendégház;elérhetőségi widget;https://www.kiskalacs.hu/a-haziko/
-19;Moodhouse 2623;RESnWEB;https://moodhouse2623.hu/arak-foglalas/
-21;Green House – why not;saját naptár;https://greenhousewhynot.hu/
-22;Csuszka Vendégház;foglalási űrlap;https://csuszkavendeghaz.hu/szallas-foglalas/
-23;Vadlesen Vendégház;saját;https://vadlesen.hu/foglalas
-24;Forest Chill;RESnWEB;https://forestchill.hu/arak-foglalas/
-25;Oaklounge Apartman;saját foglalómotor;https://oaklounge.hu/
-26;Vörösbegy Vendégház;RESnWEB;https://nethotelbooking.net/hotels/vorosbegyapartman/
-27;Lombkabin;saját;https://lombkabin.hu/kabinhaz/lombkabin/
-28;MÁK Kismaros;RESnWEB;https://nethotelbooking.net/hotels/makkismaros/
-29;Rókavölgy;saját;https://www.rokavolgy.hu/foglalas/
-30;e-Pagony vendégház;saját;https://www.e-pagony.hu/foglalas-arak/
-31;Csertölgy Villa & Home;saját;https://csertolgyvillahome.hu/foglalas/
-32;Pinewood Cabin;saját űrlap;http://pinewoodcabin.hu/
-33;Maja Erdei Pihenőház;foglalási űrlap;https://majapihenohaz.hu/
-34;Fészek Lombház;saját;https://www.feszeklombhaz.hu/szabad-idopontok-vendeghaz-foglalasa/
-35;VELLESZ;bliget.hu;https://bliget.hu/vellesz/
-36;PompaDúr;bliget.hu;https://bliget.hu/pompadur/
-37;DÉZSAVŰ;bliget.hu;https://bliget.hu/dezsavu/
-38;myIKIGAI;saját;https://myikigai.hu/foglalas/
-39;Tölgyudvar Vendégház;saját naptár (foglalási kérés);https://tolgyudvar.hu/foglalas/
-40;Villa Arbora;saját motor (Barion);https://villaarbora.hu/foglalas/
-41;Woodland Lodge;RESnWEB;https://nethotelbooking.net/hotels/woodlandlodge/
-42;Édenliget Vendégház;Appartman;https://www.edenliget.hu/app-foglalas/
+id;nev;motor;url;param;egysegek;megjegyzes
+1;Bérc Kabin;resnweb;https://berckabin.hu/foglalas/;berckabin;1;
+2;Börzsönyi Ékszerdoboz;wpbc;https://borzsonyiekszerdoboz.hu/foglalas/;;1;
+3;Lomboldal;wpbc;https://www.lomboldal.hu/arak-foglalas/;;1;régi wpbc (inline tömbök)
+4;BOHÉM Kabin & Wellness;kesobb;https://bohemkabin.hu/foglalas/;;1;Previo
+5;Aligvárlak Vendégház;wpbc;https://xn--aligvrlak-vendghz-bpbl1n.hu/foglalas/;;1;
+6;3SIDE Dunakanyar;resnweb;https://3sidekismaros.hu/foglalas/;3sidekismaros;1;
+7;Tölgy kabin;kesobb;https://tolgykabin.hu/foglalas/;;1;motor azonosítandó
+8;BörzsönyPagony;wpbs;https://www.borzsonypagony.hu/booking/;;1;
+9;LombTerasz;resnweb;https://lombterasz.hu/foglalas/;lombterasz;1;
+10;Maroska (Forest Cabin, Pine, Lodge);resnweb;https://maroska.hu/foglalas/;maroska;3;a naptár a 3 házra együtt szól
+13;A Ház;kesobb;https://ahazkismaros.hu/ahaz/foglalas_ar.php;;1;saját naptár
+14;A Hely;kesobb;https://ahazkismaros.hu/ahely/foglalas_ar.php;;1;saját naptár
+15;Medvetalp Vendégház;wpbs;https://www.medvetalpvendeghaz.hu/;;1;
+16;Mesebeli Vendégház / Mesebeli ház;kesobb;https://mesebelivendeghaz.hu/;;2;időpontkérés
+18;Kiskalács vendégház;kesobb;https://www.kiskalacs.hu/a-haziko/;;1;elérhetőségi widget
+19;Moodhouse 2623;resnweb;https://moodhouse2623.hu/arak-foglalas/;moodhouse;1;
+21;Green House – why not;kesobb;https://greenhousewhynot.hu/;;1;Appartman
+22;Csuszka Vendégház;kesobb;https://csuszkavendeghaz.hu/szallas-foglalas/;;1;foglalási űrlap
+23;Vadlesen Vendégház;kesobb;https://vadlesen.hu/foglalas;;1;saját
+24;Forest Chill;resnweb;https://forestchill.hu/arak-foglalas/;forestchill;1;
+25;Oaklounge Apartman;kesobb;https://oaklounge.hu/;;1;Appartman
+26;Vörösbegy Vendégház;resnweb;https://nethotelbooking.net/hotels/vorosbegyapartman/;vorosbegyapartman;1;
+27;Lombkabin;kesobb;https://lombkabin.hu/kabinhaz/lombkabin/;;1;saját
+28;MÁK Kismaros;resnweb;https://nethotelbooking.net/hotels/makkismaros/;makkismaros;1;
+29;Rókavölgy;wpbs;https://www.rokavolgy.hu/foglalas/;;1;
+30;e-Pagony vendégház;wpbs;https://www.e-pagony.hu/foglalas-arak/;;1;
+31;Csertölgy Villa & Home;kesobb;https://csertolgyvillahome.hu/foglalas/;;1;saját
+32;Pinewood Cabin;wpbs;https://pinewoodcabin.hu/;;1;
+33;Maja Erdei Pihenőház;kesobb;https://majapihenohaz.hu/;;1;foglalási űrlap
+34;Fészek Lombház;kesobb;https://www.feszeklombhaz.hu/szabad-idopontok-vendeghaz-foglalasa/;;1;saját
+35;VELLESZ;wpbc;https://bliget.hu/vellesz/;;1;
+36;PompaDúr;wpbc;https://bliget.hu/pompadur/;;1;
+37;DÉZSAVŰ;wpbc;https://bliget.hu/dezsavu/;;1;
+38;myIKIGAI;kesobb;https://myikigai.hu/foglalas/;;1;Appartman
+39;Tölgyudvar Vendégház;wpbc;https://tolgyudvar.hu/foglalas/;;1;
+40;Villa Arbora;wpbs;https://villaarbora.hu/foglalas/;;1;
+41;Woodland Lodge;resnweb;https://nethotelbooking.net/hotels/woodlandlodge/;woodlandlodge;1;
+42;Édenliget Vendégház;kesobb;https://www.edenliget.hu/app-foglalas/;;1;Appartman
