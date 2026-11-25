@@ -1,0 +1,1101 @@
+[
+ {
+  "id": "1",
+  "nev": "Bérc Kabin",
+  "motor_lista": "saját (WordPress)",
+  "oldal": {
+   "url": "https://berckabin.hu/foglalas/",
+   "statusz": 200,
+   "vegso_url": "https://berckabin.hu/foglalas/",
+   "meret_kb": 127.0,
+   "ido_s": 3.3,
+   "tiltas": [],
+   "motor": [
+    "RESnWEB"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": [
+   {
+    "url": "https://nethotelbooking.net/embed.RESnWEB.js?id=V4KCU",
+    "statusz": 200,
+    "vegso_url": "https://nethotelbooking.net/embed.RESnWEB.js?id=V4KCU",
+    "meret_kb": 27.8,
+    "ido_s": 0.6,
+    "tiltas": [],
+    "motor": [
+     "RESnWEB"
+    ],
+    "ertekeles": "OK"
+   }
+  ]
+ },
+ {
+  "id": "2",
+  "nev": "Börzsönyi Ékszerdoboz",
+  "motor_lista": "WP Booking Calendar",
+  "oldal": {
+   "url": "https://borzsonyiekszerdoboz.hu/foglalas/",
+   "statusz": 200,
+   "vegso_url": "https://borzsonyiekszerdoboz.hu/foglalas/",
+   "meret_kb": 86.0,
+   "ido_s": 2.1,
+   "tiltas": [],
+   "motor": [
+    "WP Booking Calendar",
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": [
+   {
+    "url": "https://borzsonyiekszerdoboz.hu/wp-content/plugins/booking.bm.9.9.1/_dist/all/_out/wpbc_all.js?ver=9.9.1",
+    "statusz": 200,
+    "vegso_url": "https://borzsonyiekszerdoboz.hu/wp-content/plugins/booking.bm.9.9.1/_dist/all/_out/wpbc_all.js?ver=9.9.1",
+    "meret_kb": 335.3,
+    "ido_s": 1.1,
+    "tiltas": [],
+    "motor": [
+     "WP Booking Calendar",
+     "naptár (általános)"
+    ],
+    "ertekeles": "OK"
+   },
+   {
+    "url": "https://borzsonyiekszerdoboz.hu/wp-content/plugins/booking.bm.9.9.1/assets/img/ajax-loader.gif",
+    "statusz": 200,
+    "vegso_url": "https://borzsonyiekszerdoboz.hu/wp-content/plugins/booking.bm.9.9.1/assets/img/ajax-loader.gif",
+    "meret_kb": 2.5,
+    "ido_s": 1.2,
+    "tiltas": [],
+    "motor": [],
+    "ertekeles": "OK"
+   },
+   {
+    "url": "https://borzsonyiekszerdoboz.hu/wp-content/plugins/booking.bm.9.9.1/assets/libs/bootstrap-css/css/bootstrap-theme.css?ver=9.9.1",
+    "statusz": 200,
+    "vegso_url": "https://borzsonyiekszerdoboz.hu/wp-content/plugins/booking.bm.9.9.1/assets/libs/bootstrap-css/css/bootstrap-theme.css?ver=9.9.1",
+    "meret_kb": 28.5,
+    "ido_s": 0.9,
+    "tiltas": [],
+    "motor": [],
+    "ertekeles": "OK"
+   }
+  ]
+ },
+ {
+  "id": "3",
+  "nev": "Lomboldal",
+  "motor_lista": "WP Booking Calendar",
+  "oldal": {
+   "url": "https://www.lomboldal.hu/arak-foglalas/",
+   "statusz": 200,
+   "vegso_url": "https://www.lomboldal.hu/arak-foglalas/",
+   "meret_kb": 171.4,
+   "ido_s": 2.7,
+   "tiltas": [],
+   "motor": [
+    "WP Booking Calendar",
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": [
+   {
+    "url": "https://www.lomboldal.hu/wp-content/plugins/booking.bm.9.0/assets/img/ajax-loader.gif",
+    "statusz": 200,
+    "vegso_url": "https://www.lomboldal.hu/wp-content/plugins/booking.bm.9.0/assets/img/ajax-loader.gif",
+    "meret_kb": 2.5,
+    "ido_s": 0.8,
+    "tiltas": [],
+    "motor": [],
+    "ertekeles": "OK"
+   },
+   {
+    "url": "https://www.lomboldal.hu/wp-content/plugins/booking.bm.9.0/assets/libs/bootstrap/css/bootstrap-theme.css?ver=3.3.5.1",
+    "statusz": 200,
+    "vegso_url": "https://www.lomboldal.hu/wp-content/plugins/booking.bm.9.0/assets/libs/bootstrap/css/bootstrap-theme.css?ver=3.3.5.1",
+    "meret_kb": 28.5,
+    "ido_s": 0.5,
+    "tiltas": [],
+    "motor": [],
+    "ertekeles": "OK"
+   },
+   {
+    "url": "https://www.lomboldal.hu/wp-content/plugins/booking.bm.9.0/assets/libs/bootstrap/css/bootstrap.css?ver=3.3.5.1",
+    "statusz": 200,
+    "vegso_url": "https://www.lomboldal.hu/wp-content/plugins/booking.bm.9.0/assets/libs/bootstrap/css/bootstrap.css?ver=3.3.5.1",
+    "meret_kb": 178.4,
+    "ido_s": 0.6,
+    "tiltas": [],
+    "motor": [
+     "naptár (általános)"
+    ],
+    "ertekeles": "OK"
+   }
+  ]
+ },
+ {
+  "id": "4",
+  "nev": "BOHÉM Kabin & Wellness",
+  "motor_lista": "Previo",
+  "oldal": {
+   "url": "https://bohemkabin.hu/foglalas/",
+   "statusz": 200,
+   "vegso_url": "https://bohemkabin.hu/foglalas/",
+   "meret_kb": 86.9,
+   "ido_s": 3.0,
+   "tiltas": [],
+   "motor": [
+    "Previo"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": [
+   {
+    "url": "https://booking.previo.app/loader/",
+    "statusz": 200,
+    "vegso_url": "https://booking.previo.app/loader/",
+    "meret_kb": 23.2,
+    "ido_s": 1.0,
+    "tiltas": [],
+    "motor": [
+     "Previo"
+    ],
+    "ertekeles": "OK"
+   }
+  ]
+ },
+ {
+  "id": "5",
+  "nev": "Aligvárlak Vendégház",
+  "motor_lista": "WP Booking Calendar",
+  "oldal": {
+   "url": "https://xn--aligvrlak-vendghz-bpbl1n.hu/foglalas/",
+   "statusz": 200,
+   "vegso_url": "https://xn--aligvrlak-vendghz-bpbl1n.hu/foglalas/",
+   "meret_kb": 166.1,
+   "ido_s": 1.9,
+   "tiltas": [],
+   "motor": [
+    "WP Booking Calendar",
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "6",
+  "nev": "3SIDE Dunakanyar",
+  "motor_lista": "RESnWEB",
+  "oldal": {
+   "url": "https://3sidekismaros.hu/foglalas/",
+   "statusz": 200,
+   "vegso_url": "https://3sidekismaros.hu/foglalas/",
+   "meret_kb": 179.5,
+   "ido_s": 2.7,
+   "tiltas": [],
+   "motor": [
+    "RESnWEB"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": [
+   {
+    "url": "https://nethotelbooking.net/embed.RESnWEB.js?id=G1DCQ",
+    "statusz": 200,
+    "vegso_url": "https://nethotelbooking.net/embed.RESnWEB.js?id=G1DCQ",
+    "meret_kb": 27.8,
+    "ido_s": 0.6,
+    "tiltas": [],
+    "motor": [
+     "RESnWEB"
+    ],
+    "ertekeles": "OK"
+   }
+  ]
+ },
+ {
+  "id": "7",
+  "nev": "Tölgy kabin",
+  "motor_lista": "WP Booking System",
+  "oldal": {
+   "url": "https://tolgykabin.hu/foglalas/",
+   "statusz": 200,
+   "vegso_url": "https://tolgykabin.hu/foglalas/",
+   "meret_kb": 121.6,
+   "ido_s": 1.6,
+   "tiltas": [],
+   "motor": [
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "8",
+  "nev": "BörzsönyPagony",
+  "motor_lista": "WP Booking System",
+  "oldal": {
+   "url": "https://www.borzsonypagony.hu/booking/",
+   "statusz": 200,
+   "vegso_url": "https://www.borzsonypagony.hu/booking/",
+   "meret_kb": 245.1,
+   "ido_s": 1.4,
+   "tiltas": [],
+   "motor": [
+    "WP Booking System",
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "9",
+  "nev": "LombTerasz",
+  "motor_lista": "RESnWEB",
+  "oldal": {
+   "url": "https://lombterasz.hu/foglalas/",
+   "statusz": 200,
+   "vegso_url": "https://lombterasz.hu/foglalas/",
+   "meret_kb": 156.2,
+   "ido_s": 2.7,
+   "tiltas": [],
+   "motor": [
+    "RESnWEB"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": [
+   {
+    "url": "https://nethotelbooking.net/embed.RESnWEB.js?id=Y6SVA",
+    "statusz": 200,
+    "vegso_url": "https://nethotelbooking.net/embed.RESnWEB.js?id=Y6SVA",
+    "meret_kb": 27.8,
+    "ido_s": 0.6,
+    "tiltas": [],
+    "motor": [
+     "RESnWEB"
+    ],
+    "ertekeles": "OK"
+   }
+  ]
+ },
+ {
+  "id": "10",
+  "nev": "Maroska (Forest Cabin, Pine, Lodge)",
+  "motor_lista": "RESnWEB",
+  "oldal": {
+   "url": "https://maroska.hu/foglalas/",
+   "statusz": 200,
+   "vegso_url": "https://maroska.hu/foglalas/",
+   "meret_kb": 139.3,
+   "ido_s": 1.6,
+   "tiltas": [],
+   "motor": [
+    "RESnWEB",
+    "Barion"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": [
+   {
+    "url": "https://nethotelbooking.net/embed.RESnWEB.js?id=CCLSC",
+    "statusz": 200,
+    "vegso_url": "https://nethotelbooking.net/embed.RESnWEB.js?id=CCLSC",
+    "meret_kb": 27.8,
+    "ido_s": 0.6,
+    "tiltas": [],
+    "motor": [
+     "RESnWEB"
+    ],
+    "ertekeles": "OK"
+   }
+  ]
+ },
+ {
+  "id": "13",
+  "nev": "A Ház",
+  "motor_lista": "saját naptár",
+  "oldal": {
+   "url": "https://ahazkismaros.hu/ahaz/foglalas_ar.php",
+   "statusz": 200,
+   "vegso_url": "https://ahazkismaros.hu/ahaz/foglalas_ar.php",
+   "meret_kb": 51.2,
+   "ido_s": 0.9,
+   "tiltas": [],
+   "motor": [
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "14",
+  "nev": "A Hely",
+  "motor_lista": "saját naptár",
+  "oldal": {
+   "url": "https://ahazkismaros.hu/ahely/foglalas_ar.php",
+   "statusz": 200,
+   "vegso_url": "https://ahazkismaros.hu/ahely/foglalas_ar.php",
+   "meret_kb": 51.3,
+   "ido_s": 0.5,
+   "tiltas": [],
+   "motor": [
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "15",
+  "nev": "Medvetalp Vendégház",
+  "motor_lista": "WP Booking System (ajánlatkérés)",
+  "oldal": {
+   "url": "https://www.medvetalpvendeghaz.hu/",
+   "statusz": 200,
+   "vegso_url": "https://www.medvetalpvendeghaz.hu/",
+   "meret_kb": 122.2,
+   "ido_s": 1.2,
+   "tiltas": [],
+   "motor": [
+    "WP Booking System",
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "16",
+  "nev": "Mesebeli Vendégház / Mesebeli ház",
+  "motor_lista": "saját naptáras időpontkérés",
+  "oldal": {
+   "url": "https://mesebelivendeghaz.hu/",
+   "statusz": 200,
+   "vegso_url": "https://mesebelivendeghaz.hu/",
+   "meret_kb": 56.6,
+   "ido_s": 3.3,
+   "tiltas": [],
+   "motor": [
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "18",
+  "nev": "Kiskalács vendégház",
+  "motor_lista": "elérhetőségi widget",
+  "oldal": {
+   "url": "https://www.kiskalacs.hu/a-haziko/",
+   "statusz": 200,
+   "vegso_url": "https://www.kiskalacs.hu/a-haziko/",
+   "meret_kb": 432.0,
+   "ido_s": 3.8,
+   "tiltas": [],
+   "motor": [
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "19",
+  "nev": "Moodhouse 2623",
+  "motor_lista": "RESnWEB",
+  "oldal": {
+   "url": "https://moodhouse2623.hu/arak-foglalas/",
+   "statusz": 200,
+   "vegso_url": "https://moodhouse2623.hu/arak-foglalas/",
+   "meret_kb": 170.7,
+   "ido_s": 2.9,
+   "tiltas": [],
+   "motor": [
+    "RESnWEB"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": [
+   {
+    "url": "https://nethotelbooking.net/embed.js",
+    "statusz": 200,
+    "vegso_url": "https://nethotelbooking.net/embed.js",
+    "meret_kb": 27.8,
+    "ido_s": 0.6,
+    "tiltas": [],
+    "motor": [
+     "RESnWEB"
+    ],
+    "ertekeles": "OK"
+   }
+  ]
+ },
+ {
+  "id": "20",
+  "nev": "Redibo erdei vendégház",
+  "motor_lista": "saját",
+  "oldal": {
+   "url": "https://redibo.hu/araink/",
+   "statusz": 403,
+   "vegso_url": "https://redibo.hu/araink/",
+   "meret_kb": 9.6,
+   "ido_s": 0.8,
+   "tiltas": [],
+   "motor": [],
+   "ertekeles": "HIBA 403"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "21",
+  "nev": "Green House – why not",
+  "motor_lista": "saját naptár",
+  "oldal": {
+   "url": "https://greenhousewhynot.hu/",
+   "statusz": 200,
+   "vegso_url": "https://greenhousewhynot.hu/",
+   "meret_kb": 596.0,
+   "ido_s": 1.1,
+   "tiltas": [],
+   "motor": [
+    "Appartman",
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": [
+   {
+    "url": "https://foglalas.appartman.hu/greenhouse-whynot?utm_source=greenhousewhynot.hu&#038;utm_medium=referral&#038;utm_campaign=foglalas_gomb_1-2_szemely_hetkoznap",
+    "statusz": 200,
+    "vegso_url": "https://foglalas.appartman.hu/greenhouse-whynot?utm_source=greenhousewhynot.hu&#038;utm_medium=referral&%23038;utm_campaign=foglalas_gomb_1-2_szemely_hetkoznap",
+    "meret_kb": 1088.6,
+    "ido_s": 1.8,
+    "tiltas": [],
+    "motor": [
+     "Appartman",
+     "naptár (általános)"
+    ],
+    "ertekeles": "OK"
+   },
+   {
+    "url": "https://foglalas.appartman.hu/greenhouse-whynot?utm_source=greenhousewhynot.hu&#038;utm_medium=referral&#038;utm_campaign=foglalas_gomb_1-2_szemely_hetvege",
+    "statusz": 200,
+    "vegso_url": "https://foglalas.appartman.hu/greenhouse-whynot?utm_source=greenhousewhynot.hu&#038;utm_medium=referral&%23038;utm_campaign=foglalas_gomb_1-2_szemely_hetvege",
+    "meret_kb": 1088.6,
+    "ido_s": 1.5,
+    "tiltas": [],
+    "motor": [
+     "Appartman",
+     "naptár (általános)"
+    ],
+    "ertekeles": "OK"
+   },
+   {
+    "url": "https://foglalas.appartman.hu/greenhouse-whynot?utm_source=greenhousewhynot.hu&#038;utm_medium=referral&#038;utm_campaign=foglalas_gomb_1-2_szemely_kiemelt",
+    "statusz": 200,
+    "vegso_url": "https://foglalas.appartman.hu/greenhouse-whynot?utm_source=greenhousewhynot.hu&#038;utm_medium=referral&%23038;utm_campaign=foglalas_gomb_1-2_szemely_kiemelt",
+    "meret_kb": 1088.6,
+    "ido_s": 2.2,
+    "tiltas": [],
+    "motor": [
+     "Appartman",
+     "naptár (általános)"
+    ],
+    "ertekeles": "OK"
+   }
+  ]
+ },
+ {
+  "id": "22",
+  "nev": "Csuszka Vendégház",
+  "motor_lista": "foglalási űrlap",
+  "oldal": {
+   "url": "https://csuszkavendeghaz.hu/szallas-foglalas/",
+   "statusz": 200,
+   "vegso_url": "https://csuszkavendeghaz.hu/szallas-foglalas/",
+   "meret_kb": 112.9,
+   "ido_s": 4.4,
+   "tiltas": [],
+   "motor": [
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "23",
+  "nev": "Vadlesen Vendégház",
+  "motor_lista": "saját",
+  "oldal": {
+   "url": "https://vadlesen.hu/foglalas",
+   "statusz": 200,
+   "vegso_url": "https://vadlesen.hu/foglalas",
+   "meret_kb": 40.4,
+   "ido_s": 1.7,
+   "tiltas": [],
+   "motor": [
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "24",
+  "nev": "Forest Chill",
+  "motor_lista": "RESnWEB",
+  "oldal": {
+   "url": "https://forestchill.hu/arak-foglalas/",
+   "statusz": 200,
+   "vegso_url": "https://forestchill.hu/arak-foglalas/",
+   "meret_kb": 146.5,
+   "ido_s": 3.8,
+   "tiltas": [],
+   "motor": [
+    "RESnWEB"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": [
+   {
+    "url": "https://nethotelbooking.net/embed.RESnWEB.js?id=9KUBZ",
+    "statusz": 200,
+    "vegso_url": "https://nethotelbooking.net/embed.RESnWEB.js?id=9KUBZ",
+    "meret_kb": 27.8,
+    "ido_s": 0.6,
+    "tiltas": [],
+    "motor": [
+     "RESnWEB"
+    ],
+    "ertekeles": "OK"
+   }
+  ]
+ },
+ {
+  "id": "25",
+  "nev": "Oaklounge Apartman",
+  "motor_lista": "saját foglalómotor",
+  "oldal": {
+   "url": "https://oaklounge.hu/",
+   "statusz": 200,
+   "vegso_url": "https://oaklounge.hu/",
+   "meret_kb": 266.3,
+   "ido_s": 1.4,
+   "tiltas": [],
+   "motor": [
+    "Appartman",
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "26",
+  "nev": "Vörösbegy Vendégház",
+  "motor_lista": "RESnWEB",
+  "oldal": {
+   "url": "https://nethotelbooking.net/hotels/vorosbegyapartman/",
+   "statusz": 200,
+   "vegso_url": "https://nethotelbooking.net/hotels/vorosbegyapartman/",
+   "meret_kb": 160.0,
+   "ido_s": 1.3,
+   "tiltas": [],
+   "motor": [
+    "RESnWEB",
+    "Barion",
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": [
+   {
+    "url": "https://nethotelbooking.net/hotels/vorosbegyapartman",
+    "statusz": 200,
+    "vegso_url": "https://nethotelbooking.net/hotels/vorosbegyapartman",
+    "meret_kb": 160.0,
+    "ido_s": 1.2,
+    "tiltas": [],
+    "motor": [
+     "RESnWEB",
+     "Barion",
+     "naptár (általános)"
+    ],
+    "ertekeles": "OK"
+   },
+   {
+    "url": "https://nethotelbooking.net/hotels/vorosbegyapartman/",
+    "statusz": 200,
+    "vegso_url": "https://nethotelbooking.net/hotels/vorosbegyapartman/",
+    "meret_kb": 160.0,
+    "ido_s": 1.2,
+    "tiltas": [],
+    "motor": [
+     "RESnWEB",
+     "Barion",
+     "naptár (általános)"
+    ],
+    "ertekeles": "OK"
+   },
+   {
+    "url": "https://static.nethotelbooking.net/Static/css/index.css?1794892371",
+    "statusz": 200,
+    "vegso_url": "https://static.nethotelbooking.net/Static/css/index.css?1794892371",
+    "meret_kb": 122.6,
+    "ido_s": 0.1,
+    "tiltas": [],
+    "motor": [
+     "RESnWEB",
+     "naptár (általános)"
+    ],
+    "ertekeles": "OK"
+   }
+  ]
+ },
+ {
+  "id": "27",
+  "nev": "Lombkabin",
+  "motor_lista": "saját",
+  "oldal": {
+   "url": "https://lombkabin.hu/kabinhaz/lombkabin/",
+   "statusz": 200,
+   "vegso_url": "https://lombkabin.hu/kabinhaz/lombkabin/",
+   "meret_kb": 301.2,
+   "ido_s": 2.9,
+   "tiltas": [],
+   "motor": [
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "28",
+  "nev": "MÁK Kismaros",
+  "motor_lista": "RESnWEB",
+  "oldal": {
+   "url": "https://nethotelbooking.net/hotels/makkismaros/",
+   "statusz": 200,
+   "vegso_url": "https://nethotelbooking.net/hotels/makkismaros/",
+   "meret_kb": 159.1,
+   "ido_s": 1.3,
+   "tiltas": [],
+   "motor": [
+    "RESnWEB",
+    "Barion",
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": [
+   {
+    "url": "https://nethotelbooking.net/hotels/makkismaros",
+    "statusz": 200,
+    "vegso_url": "https://nethotelbooking.net/hotels/makkismaros",
+    "meret_kb": 159.1,
+    "ido_s": 1.3,
+    "tiltas": [],
+    "motor": [
+     "RESnWEB",
+     "Barion",
+     "naptár (általános)"
+    ],
+    "ertekeles": "OK"
+   },
+   {
+    "url": "https://nethotelbooking.net/hotels/makkismaros/",
+    "statusz": 200,
+    "vegso_url": "https://nethotelbooking.net/hotels/makkismaros/",
+    "meret_kb": 159.1,
+    "ido_s": 1.4,
+    "tiltas": [],
+    "motor": [
+     "RESnWEB",
+     "Barion",
+     "naptár (általános)"
+    ],
+    "ertekeles": "OK"
+   },
+   {
+    "url": "https://static.nethotelbooking.net/Static/css/index.css?1794892371",
+    "statusz": 200,
+    "vegso_url": "https://static.nethotelbooking.net/Static/css/index.css?1794892371",
+    "meret_kb": 122.6,
+    "ido_s": 0.1,
+    "tiltas": [],
+    "motor": [
+     "RESnWEB",
+     "naptár (általános)"
+    ],
+    "ertekeles": "OK"
+   }
+  ]
+ },
+ {
+  "id": "29",
+  "nev": "Rókavölgy",
+  "motor_lista": "saját",
+  "oldal": {
+   "url": "https://www.rokavolgy.hu/foglalas/",
+   "statusz": 200,
+   "vegso_url": "https://www.rokavolgy.hu/foglalas/",
+   "meret_kb": 226.8,
+   "ido_s": 2.8,
+   "tiltas": [],
+   "motor": [
+    "WP Booking System",
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "30",
+  "nev": "e-Pagony vendégház",
+  "motor_lista": "saját",
+  "oldal": {
+   "url": "https://www.e-pagony.hu/foglalas-arak/",
+   "statusz": 200,
+   "vegso_url": "https://www.e-pagony.hu/foglalas-arak/",
+   "meret_kb": 192.8,
+   "ido_s": 2.9,
+   "tiltas": [],
+   "motor": [
+    "WP Booking System",
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "31",
+  "nev": "Csertölgy Villa & Home",
+  "motor_lista": "saját",
+  "oldal": {
+   "url": "https://csertolgyvillahome.hu/foglalas/",
+   "statusz": 200,
+   "vegso_url": "https://csertolgyvillahome.hu/foglalas/",
+   "meret_kb": 185.3,
+   "ido_s": 1.8,
+   "tiltas": [],
+   "motor": [
+    "Barion",
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "32",
+  "nev": "Pinewood Cabin",
+  "motor_lista": "saját űrlap",
+  "oldal": {
+   "url": "http://pinewoodcabin.hu/",
+   "statusz": 200,
+   "vegso_url": "https://pinewoodcabin.hu/",
+   "meret_kb": 169.4,
+   "ido_s": 3.7,
+   "tiltas": [],
+   "motor": [
+    "WP Booking System",
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "33",
+  "nev": "Maja Erdei Pihenőház",
+  "motor_lista": "foglalási űrlap",
+  "oldal": {
+   "url": "https://majapihenohaz.hu/",
+   "statusz": 200,
+   "vegso_url": "https://majapihenohaz.hu/",
+   "meret_kb": 48.4,
+   "ido_s": 1.0,
+   "tiltas": [],
+   "motor": [
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "34",
+  "nev": "Fészek Lombház",
+  "motor_lista": "saját",
+  "oldal": {
+   "url": "https://www.feszeklombhaz.hu/szabad-idopontok-vendeghaz-foglalasa/",
+   "statusz": 200,
+   "vegso_url": "https://www.feszeklombhaz.hu/szabad-idopontok-vendeghaz-foglalasa/",
+   "meret_kb": 186.2,
+   "ido_s": 3.4,
+   "tiltas": [],
+   "motor": [
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "35",
+  "nev": "VELLESZ",
+  "motor_lista": "bliget.hu",
+  "oldal": {
+   "url": "https://bliget.hu/vellesz/",
+   "statusz": 200,
+   "vegso_url": "https://bliget.hu/vellesz/",
+   "meret_kb": 311.6,
+   "ido_s": 2.0,
+   "tiltas": [],
+   "motor": [
+    "WP Booking Calendar",
+    "Barion",
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "36",
+  "nev": "PompaDúr",
+  "motor_lista": "bliget.hu",
+  "oldal": {
+   "url": "https://bliget.hu/pompadur/",
+   "statusz": 200,
+   "vegso_url": "https://bliget.hu/pompadur/",
+   "meret_kb": 291.8,
+   "ido_s": 1.5,
+   "tiltas": [],
+   "motor": [
+    "WP Booking Calendar",
+    "Barion",
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "37",
+  "nev": "DÉZSAVŰ",
+  "motor_lista": "bliget.hu",
+  "oldal": {
+   "url": "https://bliget.hu/dezsavu/",
+   "statusz": 200,
+   "vegso_url": "https://bliget.hu/dezsavu/",
+   "meret_kb": 308.1,
+   "ido_s": 2.0,
+   "tiltas": [],
+   "motor": [
+    "WP Booking Calendar",
+    "Barion",
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "38",
+  "nev": "myIKIGAI",
+  "motor_lista": "saját",
+  "oldal": {
+   "url": "https://myikigai.hu/foglalas/",
+   "statusz": 200,
+   "vegso_url": "https://myikigai.hu/foglalas-2/",
+   "meret_kb": 126.6,
+   "ido_s": 3.3,
+   "tiltas": [],
+   "motor": [
+    "Appartman"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": [
+   {
+    "url": "https://foglalas.appartman.hu/embed-script-min.js",
+    "statusz": 200,
+    "vegso_url": "https://foglalas.appartman.hu/embed-script-min.js",
+    "meret_kb": 3.4,
+    "ido_s": 0.7,
+    "tiltas": [],
+    "motor": [],
+    "ertekeles": "OK"
+   },
+   {
+    "url": "https://foglalas.appartman.hu/myikigai/embed",
+    "statusz": 200,
+    "vegso_url": "https://foglalas.appartman.hu/myikigai/embed",
+    "meret_kb": 918.6,
+    "ido_s": 0.8,
+    "tiltas": [],
+    "motor": [
+     "Appartman",
+     "naptár (általános)"
+    ],
+    "ertekeles": "OK"
+   }
+  ]
+ },
+ {
+  "id": "39",
+  "nev": "Tölgyudvar Vendégház",
+  "motor_lista": "saját naptár (foglalási kérés)",
+  "oldal": {
+   "url": "https://tolgyudvar.hu/foglalas/",
+   "statusz": 200,
+   "vegso_url": "https://tolgyudvar.hu/foglalas/",
+   "meret_kb": 356.5,
+   "ido_s": 2.8,
+   "tiltas": [],
+   "motor": [
+    "WP Booking Calendar",
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "40",
+  "nev": "Villa Arbora",
+  "motor_lista": "saját motor (Barion)",
+  "oldal": {
+   "url": "https://villaarbora.hu/foglalas/",
+   "statusz": 200,
+   "vegso_url": "https://villaarbora.hu/foglalas/",
+   "meret_kb": 228.8,
+   "ido_s": 7.8,
+   "tiltas": [],
+   "motor": [
+    "WP Booking System",
+    "Barion",
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": []
+ },
+ {
+  "id": "41",
+  "nev": "Woodland Lodge",
+  "motor_lista": "RESnWEB",
+  "oldal": {
+   "url": "https://nethotelbooking.net/hotels/woodlandlodge/",
+   "statusz": 200,
+   "vegso_url": "https://nethotelbooking.net/hotels/woodlandlodge/",
+   "meret_kb": 171.5,
+   "ido_s": 1.4,
+   "tiltas": [],
+   "motor": [
+    "RESnWEB",
+    "Barion",
+    "naptár (általános)"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": [
+   {
+    "url": "https://nethotelbooking.net/hotels/woodlandlodge",
+    "statusz": 200,
+    "vegso_url": "https://nethotelbooking.net/hotels/woodlandlodge",
+    "meret_kb": 171.5,
+    "ido_s": 1.2,
+    "tiltas": [],
+    "motor": [
+     "RESnWEB",
+     "Barion",
+     "naptár (általános)"
+    ],
+    "ertekeles": "OK"
+   },
+   {
+    "url": "https://nethotelbooking.net/hotels/woodlandlodge/",
+    "statusz": 200,
+    "vegso_url": "https://nethotelbooking.net/hotels/woodlandlodge/",
+    "meret_kb": 171.5,
+    "ido_s": 1.3,
+    "tiltas": [],
+    "motor": [
+     "RESnWEB",
+     "Barion",
+     "naptár (általános)"
+    ],
+    "ertekeles": "OK"
+   },
+   {
+    "url": "https://static.nethotelbooking.net/Static/css/index.css?1794892371",
+    "statusz": 200,
+    "vegso_url": "https://static.nethotelbooking.net/Static/css/index.css?1794892371",
+    "meret_kb": 122.6,
+    "ido_s": 0.1,
+    "tiltas": [],
+    "motor": [
+     "RESnWEB",
+     "naptár (általános)"
+    ],
+    "ertekeles": "OK"
+   }
+  ]
+ },
+ {
+  "id": "42",
+  "nev": "Édenliget Vendégház",
+  "motor_lista": "Appartman",
+  "oldal": {
+   "url": "https://www.edenliget.hu/app-foglalas/",
+   "statusz": 200,
+   "vegso_url": "https://www.edenliget.hu/app-foglalas/",
+   "meret_kb": 52.4,
+   "ido_s": 2.4,
+   "tiltas": [],
+   "motor": [
+    "Appartman"
+   ],
+   "ertekeles": "OK"
+  },
+  "beagyazott": [
+   {
+    "url": "https://foglalas.appartman.hu/edenliget-vendeghaz/embed",
+    "statusz": 200,
+    "vegso_url": "https://foglalas.appartman.hu/edenliget-vendeghaz/embed",
+    "meret_kb": 918.6,
+    "ido_s": 0.8,
+    "tiltas": [],
+    "motor": [
+     "Appartman",
+     "naptár (általános)"
+    ],
+    "ertekeles": "OK"
+   },
+   {
+    "url": "https://foglalas.appartman.hu/embed-script-min.js",
+    "statusz": 200,
+    "vegso_url": "https://foglalas.appartman.hu/embed-script-min.js",
+    "meret_kb": 3.4,
+    "ido_s": 0.2,
+    "tiltas": [],
+    "motor": [],
+    "ertekeles": "OK"
+   }
+  ]
+ }
+]
