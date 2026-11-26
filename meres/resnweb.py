@@ -18,17 +18,18 @@ ALAP = "https://nethotelbooking.net"
 def mer(slug, kezdo, napok, egysegek=1):
     # A szerver néha átmenetileg üres választ ad (2026. 11. 26. este: HTTP 202, 0 bájt),
     # ezért ha nincs meg a sid, kicsit később újrapróbáljuk, új munkamenettel.
-    for kiserlet in range(4):
+    for kiserlet in range(3):
+        if kiserlet:
+            time.sleep(20 * kiserlet)
         s = Munkamenet()
         oldal = s.get(f"{ALAP}/hotels/{slug}/")
         sid = re.search(r"location\.hash\s*=\s*'([A-Z0-9]{20,})'", oldal)
         hid = re.search(r"images\.resnweb\.net/(\d+)/", oldal)
         if sid and hid:
             break
-        time.sleep(30 * (kiserlet + 1))
     else:
         raise RuntimeError(f"nem található sid vagy szállodaazonosító az oldalon "
-                           f"(4 próbálkozás, utolsó válasz {len(oldal)} bájt)")
+                           f"(3 próbálkozás, utolsó válasz {len(oldal)} bájt)")
     sid, hid = sid.group(1), hid.group(1)
     nyers = {}
     for y, m in honapok(kezdo, napok):
