@@ -1,5 +1,6 @@
 {
  "meres_nap": "2026-11-26",
+ "elso_ej": "2026-11-27",
  "napok": 60,
  "szallasok": [
   {
@@ -8,13 +9,13 @@
    "motor": "resnweb",
    "eredmeny": "ok",
    "napok": 60,
-   "foglalt_14": 14,
-   "foglalt": 46,
-   "szabad": 14,
+   "foglalt_14": 13,
+   "foglalt": 45,
+   "szabad": 15,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 4.4
+   "ido_s": 3.6
   },
   {
    "id": "2",
@@ -23,12 +24,12 @@
    "eredmeny": "ok",
    "napok": 60,
    "foglalt_14": 13,
-   "foglalt": 42,
-   "szabad": 18,
+   "foglalt": 41,
+   "szabad": 19,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 4.4
+   "ido_s": 9.5
   },
   {
    "id": "3",
@@ -36,13 +37,13 @@
    "motor": "wpbc",
    "eredmeny": "ok",
    "napok": 60,
-   "foglalt_14": 8,
-   "foglalt": 35,
-   "szabad": 25,
+   "foglalt_14": 7,
+   "foglalt": 34,
+   "szabad": 26,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 3.2
+   "ido_s": 2.7
   },
   {
    "id": "4",
@@ -50,13 +51,13 @@
    "motor": "previo",
    "eredmeny": "ok",
    "napok": 60,
-   "foglalt_14": 14,
-   "foglalt": 32,
-   "szabad": 28,
+   "foglalt_14": 13,
+   "foglalt": 31,
+   "szabad": 29,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 2.7
+   "ido_s": 2.2
   },
   {
    "id": "5",
@@ -64,13 +65,13 @@
    "motor": "wpbc",
    "eredmeny": "ok",
    "napok": 60,
-   "foglalt_14": 5,
-   "foglalt": 30,
-   "szabad": 30,
+   "foglalt_14": 4,
+   "foglalt": 29,
+   "szabad": 31,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 3.6
+   "ido_s": 3.3
   },
   {
    "id": "6",
@@ -78,13 +79,13 @@
    "motor": "resnweb",
    "eredmeny": "ok",
    "napok": 60,
-   "foglalt_14": 6,
-   "foglalt": 20,
-   "szabad": 40,
+   "foglalt_14": 5,
+   "foglalt": 19,
+   "szabad": 41,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 4.2
+   "ido_s": 3.2
   },
   {
    "id": "7",
@@ -93,12 +94,12 @@
    "eredmeny": "ok",
    "napok": 60,
    "foglalt_14": 11,
-   "foglalt": 38,
-   "szabad": 22,
+   "foglalt": 37,
+   "szabad": 23,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 3.3
+   "ido_s": 2.8
   },
   {
    "id": "8",
@@ -112,7 +113,7 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 5.2
+   "ido_s": 4.0
   },
   {
    "id": "9",
@@ -121,54 +122,12 @@
    "eredmeny": "ok",
    "napok": 60,
    "foglalt_14": 14,
-   "foglalt": 47,
-   "szabad": 13,
+   "foglalt": 46,
+   "szabad": 14,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 4.0
-  },
-  {
-   "id": "10",
-   "szallas": "Maroska (Forest Cabin, Pine, Lodge)",
-   "motor": "resnweb",
-   "eredmeny": "ok",
-   "napok": 60,
-   "foglalt_14": 7,
-   "foglalt": 25,
-   "szabad": 8,
-   "zarva": 0,
-   "reszben": 27,
-   "ismeretlen": 0,
-   "ido_s": 4.0
-  },
-  {
-   "id": "13",
-   "szallas": "A Ház",
-   "motor": "ahazxml",
-   "eredmeny": "ok",
-   "napok": 60,
-   "foglalt_14": 0,
-   "foglalt": 2,
-   "szabad": 58,
-   "zarva": 0,
-   "reszben": 0,
-   "ismeretlen": 0,
-   "ido_s": 1.1
-  },
-  {
-   "id": "14",
-   "szallas": "A Hely",
-   "motor": "ahazxml",
-   "eredmeny": "ok",
-   "napok": 60,
-   "foglalt_14": 0,
-   "foglalt": 1,
-   "szabad": 59,
-   "zarva": 0,
-   "reszben": 0,
-   "ismeretlen": 0,
-   "ido_s": 0.7
+   "ido_s": 3.5
   },
   {
    "id": "15",
@@ -182,21 +141,35 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 9.0
+   "ido_s": 7.5
   },
   {
    "id": "16",
-   "szallas": "Mesebeli Vendégház / Mesebeli ház",
+   "szallas": "Mesebeli Vendégház",
    "motor": "mesebeli",
    "eredmeny": "ok",
    "napok": 60,
-   "foglalt_14": 1,
-   "foglalt": 9,
-   "szabad": 38,
+   "foglalt_14": 3,
+   "foglalt": 15,
+   "szabad": 45,
    "zarva": 0,
-   "reszben": 13,
+   "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 1.6
+   "ido_s": 1.7
+  },
+  {
+   "id": "17",
+   "szallas": "Mesebeli ház",
+   "motor": "mesebeli",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 4,
+   "foglalt": 15,
+   "szabad": 45,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 1.2
   },
   {
    "id": "18",
@@ -204,13 +177,13 @@
    "motor": "mphb",
    "eredmeny": "ok",
    "napok": 60,
-   "foglalt_14": 6,
-   "foglalt": 32,
-   "szabad": 28,
+   "foglalt_14": 5,
+   "foglalt": 31,
+   "szabad": 29,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 1.5
+   "ido_s": 1.4
   },
   {
    "id": "19",
@@ -219,12 +192,12 @@
    "eredmeny": "ok",
    "napok": 60,
    "foglalt_14": 7,
-   "foglalt": 19,
-   "szabad": 41,
+   "foglalt": 18,
+   "szabad": 42,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 4.1
+   "ido_s": 3.0
   },
   {
    "id": "21",
@@ -233,12 +206,12 @@
    "eredmeny": "ok",
    "napok": 60,
    "foglalt_14": 13,
-   "foglalt": 45,
-   "szabad": 15,
+   "foglalt": 44,
+   "szabad": 16,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 1.8
+   "ido_s": 0.8
   },
   {
    "id": "22",
@@ -252,13 +225,13 @@
    "motor": "vadlesen",
    "eredmeny": "ok",
    "napok": 60,
-   "foglalt_14": 13,
-   "foglalt": 48,
-   "szabad": 12,
+   "foglalt_14": 10,
+   "foglalt": 38,
+   "szabad": 22,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 1.8
+   "ido_s": 1.5
   },
   {
    "id": "24",
@@ -272,7 +245,7 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 4.0
+   "ido_s": 2.9
   },
   {
    "id": "25",
@@ -281,8 +254,8 @@
    "eredmeny": "ok",
    "napok": 60,
    "foglalt_14": 5,
-   "foglalt": 23,
-   "szabad": 37,
+   "foglalt": 22,
+   "szabad": 38,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
@@ -300,7 +273,7 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 4.1
+   "ido_s": 2.9
   },
   {
    "id": "27",
@@ -314,7 +287,7 @@
    "zarva": 13,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 3.1
+   "ido_s": 2.7
   },
   {
    "id": "28",
@@ -328,7 +301,7 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 3.9
+   "ido_s": 3.4
   },
   {
    "id": "29",
@@ -342,7 +315,7 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 6.8
+   "ido_s": 7.3
   },
   {
    "id": "30",
@@ -350,13 +323,13 @@
    "motor": "wpbs",
    "eredmeny": "ok",
    "napok": 60,
-   "foglalt_14": 6,
-   "foglalt": 13,
-   "szabad": 47,
+   "foglalt_14": 5,
+   "foglalt": 12,
+   "szabad": 48,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 10.6
+   "ido_s": 7.7
   },
   {
    "id": "31",
@@ -370,7 +343,7 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 3.6
+   "ido_s": 2.8
   },
   {
    "id": "32",
@@ -378,13 +351,13 @@
    "motor": "wpbs",
    "eredmeny": "ok",
    "napok": 60,
-   "foglalt_14": 9,
-   "foglalt": 19,
-   "szabad": 41,
+   "foglalt_14": 8,
+   "foglalt": 18,
+   "szabad": 42,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 6.2
+   "ido_s": 5.8
   },
   {
    "id": "33",
@@ -399,12 +372,12 @@
    "eredmeny": "ok",
    "napok": 60,
    "foglalt_14": 7,
-   "foglalt": 33,
-   "szabad": 27,
+   "foglalt": 32,
+   "szabad": 28,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 6.0
+   "ido_s": 6.3
   },
   {
    "id": "35",
@@ -418,7 +391,7 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 8.1
+   "ido_s": 3.6
   },
   {
    "id": "36",
@@ -432,7 +405,7 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 4.4
+   "ido_s": 3.1
   },
   {
    "id": "37",
@@ -446,7 +419,7 @@
    "zarva": 1,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 4.3
+   "ido_s": 3.5
   },
   {
    "id": "38",
@@ -454,13 +427,13 @@
    "motor": "appartman",
    "eredmeny": "ok",
    "napok": 60,
-   "foglalt_14": 7,
-   "foglalt": 25,
-   "szabad": 35,
+   "foglalt_14": 6,
+   "foglalt": 24,
+   "szabad": 36,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 0.5
+   "ido_s": 0.4
   },
   {
    "id": "39",
@@ -469,12 +442,12 @@
    "eredmeny": "ok",
    "napok": 60,
    "foglalt_14": 14,
-   "foglalt": 48,
-   "szabad": 12,
+   "foglalt": 47,
+   "szabad": 13,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 6.4
+   "ido_s": 5.7
   },
   {
    "id": "40",
@@ -482,13 +455,13 @@
    "motor": "wpbs",
    "eredmeny": "ok",
    "napok": 60,
-   "foglalt_14": 2,
-   "foglalt": 17,
-   "szabad": 43,
+   "foglalt_14": 1,
+   "foglalt": 16,
+   "szabad": 44,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 6.2
+   "ido_s": 7.2
   },
   {
    "id": "41",
@@ -496,13 +469,13 @@
    "motor": "resnweb",
    "eredmeny": "ok",
    "napok": 60,
-   "foglalt_14": 10,
+   "foglalt_14": 9,
    "foglalt": 33,
    "szabad": 27,
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 3.9
+   "ido_s": 3.3
   },
   {
    "id": "42",
@@ -516,7 +489,7 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 0.5
+   "ido_s": 0.4
   }
  ]
 }

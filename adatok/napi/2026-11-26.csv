@@ -1,5 +1,4 @@
 meres_nap;szallas_id;szallas;ej;allapot;nyers
-2026-11-26;1;Bérc Kabin;2026-11-26;foglalt;closed
 2026-11-26;1;Bérc Kabin;2026-11-27;foglalt;closed
 2026-11-26;1;Bérc Kabin;2026-11-28;foglalt;closed
 2026-11-26;1;Bérc Kabin;2026-11-29;foglalt;closed
@@ -59,7 +58,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;1;Bérc Kabin;2027-01-22;szabad;jelolt
 2026-11-26;1;Bérc Kabin;2027-01-23;szabad;jelolt
 2026-11-26;1;Bérc Kabin;2027-01-24;szabad;jelolt
-2026-11-26;2;Börzsönyi Ékszerdoboz;2026-11-26;foglalt;full_day_booking
+2026-11-26;1;Bérc Kabin;2027-01-25;szabad;jelolt
 2026-11-26;2;Börzsönyi Ékszerdoboz;2026-11-27;foglalt;change_over
 2026-11-26;2;Börzsönyi Ékszerdoboz;2026-11-28;foglalt;full_day_booking
 2026-11-26;2;Börzsönyi Ékszerdoboz;2026-11-29;foglalt;change_over
@@ -119,7 +118,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;2;Börzsönyi Ékszerdoboz;2027-01-22;foglalt;full_day_booking
 2026-11-26;2;Börzsönyi Ékszerdoboz;2027-01-23;foglalt;full_day_booking
 2026-11-26;2;Börzsönyi Ékszerdoboz;2027-01-24;foglalt;full_day_booking
-2026-11-26;3;Lomboldal;2026-11-26;foglalt;date_approved_par:0
+2026-11-26;2;Börzsönyi Ékszerdoboz;2027-01-25;szabad;check_out
 2026-11-26;3;Lomboldal;2026-11-27;foglalt;date_approved_par:1,date_approved_par:2
 2026-11-26;3;Lomboldal;2026-11-28;foglalt;date_approved_par:0
 2026-11-26;3;Lomboldal;2026-11-29;foglalt;date_approved_par:1,date_approved_par:2
@@ -179,7 +178,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;3;Lomboldal;2027-01-22;foglalt;date_approved_par:1
 2026-11-26;3;Lomboldal;2027-01-23;foglalt;date_approved_par:0
 2026-11-26;3;Lomboldal;2027-01-24;szabad;date_approved_par:2
-2026-11-26;4;BOHÉM Kabin & Wellness;2026-11-26;foglalt;available=False minStay=1 arrivals=True
+2026-11-26;3;Lomboldal;2027-01-25;szabad;
 2026-11-26;4;BOHÉM Kabin & Wellness;2026-11-27;foglalt;available=False minStay=1 arrivals=True
 2026-11-26;4;BOHÉM Kabin & Wellness;2026-11-28;foglalt;available=False minStay=1 arrivals=True
 2026-11-26;4;BOHÉM Kabin & Wellness;2026-11-29;foglalt;available=False minStay=1 arrivals=True
@@ -239,7 +238,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;4;BOHÉM Kabin & Wellness;2027-01-22;szabad;available=True minStay=1 arrivals=True
 2026-11-26;4;BOHÉM Kabin & Wellness;2027-01-23;szabad;available=True minStay=1 arrivals=True
 2026-11-26;4;BOHÉM Kabin & Wellness;2027-01-24;szabad;available=True minStay=1 arrivals=True
-2026-11-26;5;Aligvárlak Vendégház;2026-11-26;foglalt;full_day_booking
+2026-11-26;4;BOHÉM Kabin & Wellness;2027-01-25;szabad;available=True minStay=1 arrivals=True
 2026-11-26;5;Aligvárlak Vendégház;2026-11-27;foglalt;full_day_booking
 2026-11-26;5;Aligvárlak Vendégház;2026-11-28;foglalt;full_day_booking
 2026-11-26;5;Aligvárlak Vendégház;2026-11-29;szabad;available
@@ -299,7 +298,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;5;Aligvárlak Vendégház;2027-01-22;szabad;available
 2026-11-26;5;Aligvárlak Vendégház;2027-01-23;szabad;available
 2026-11-26;5;Aligvárlak Vendégház;2027-01-24;szabad;available
-2026-11-26;6;3SIDE Dunakanyar;2026-11-26;foglalt;closed
+2026-11-26;5;Aligvárlak Vendégház;2027-01-25;szabad;available
 2026-11-26;6;3SIDE Dunakanyar;2026-11-27;foglalt;closed
 2026-11-26;6;3SIDE Dunakanyar;2026-11-28;foglalt;cta+ctd+closed
 2026-11-26;6;3SIDE Dunakanyar;2026-11-29;foglalt;closed
@@ -359,7 +358,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;6;3SIDE Dunakanyar;2027-01-22;szabad;jelolt
 2026-11-26;6;3SIDE Dunakanyar;2027-01-23;szabad;cta+ctd
 2026-11-26;6;3SIDE Dunakanyar;2027-01-24;szabad;jelolt
-2026-11-26;7;Tölgy kabin;2026-11-26;foglalt;booked avail:0
+2026-11-26;6;3SIDE Dunakanyar;2027-01-25;szabad;jelolt
 2026-11-26;7;Tölgy kabin;2026-11-27;foglalt;booked avail:0
 2026-11-26;7;Tölgy kabin;2026-11-28;foglalt;booked avail:0
 2026-11-26;7;Tölgy kabin;2026-11-29;foglalt;booked avail:0
@@ -419,7 +418,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;7;Tölgy kabin;2027-01-22;foglalt;booked avail:0
 2026-11-26;7;Tölgy kabin;2027-01-23;foglalt;booked avail:0
 2026-11-26;7;Tölgy kabin;2027-01-24;szabad;available avail:1
-2026-11-26;8;BörzsönyPagony;2026-11-26;szabad;1:Elérhető
+2026-11-26;7;Tölgy kabin;2027-01-25;szabad;available avail:1
 2026-11-26;8;BörzsönyPagony;2026-11-27;foglalt;3:?
 2026-11-26;8;BörzsönyPagony;2026-11-28;foglalt;2:Foglalt
 2026-11-26;8;BörzsönyPagony;2026-11-29;szabad;4:?
@@ -479,7 +478,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;8;BörzsönyPagony;2027-01-22;szabad;1:Elérhető
 2026-11-26;8;BörzsönyPagony;2027-01-23;szabad;1:Elérhető
 2026-11-26;8;BörzsönyPagony;2027-01-24;szabad;1:Elérhető
-2026-11-26;9;LombTerasz;2026-11-26;foglalt;closed
+2026-11-26;8;BörzsönyPagony;2027-01-25;szabad;1:Elérhető
 2026-11-26;9;LombTerasz;2026-11-27;foglalt;closed
 2026-11-26;9;LombTerasz;2026-11-28;foglalt;cta+ctd+closed
 2026-11-26;9;LombTerasz;2026-11-29;foglalt;closed
@@ -539,187 +538,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;9;LombTerasz;2027-01-22;foglalt;closed
 2026-11-26;9;LombTerasz;2027-01-23;foglalt;cta+ctd+closed
 2026-11-26;9;LombTerasz;2027-01-24;szabad;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-11-26;szabad;
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-11-27;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-11-28;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-11-29;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-11-30;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-01;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-02;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-03;szabad;
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-04;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-05;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-06;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-07;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-08;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-09;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-10;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-11;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-12;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-13;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-14;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-15;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-16;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-17;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-18;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-19;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-20;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-21;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-22;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-23;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-24;szabad;
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-25;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-26;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-27;szabad;
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-28;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-29;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-30;szabad;
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2026-12-31;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-01;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-02;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-03;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-04;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-05;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-06;szabad;
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-07;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-08;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-09;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-10;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-11;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-12;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-13;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-14;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-15;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-16;foglalt;closed
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-17;szabad;
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-18;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-19;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-20;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-21;szabad;
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-22;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-23;reszben;jelolt
-2026-11-26;10;Maroska (Forest Cabin, Pine, Lodge);2027-01-24;reszben;jelolt
-2026-11-26;13;A Ház;2026-11-26;szabad;
-2026-11-26;13;A Ház;2026-11-27;szabad;
-2026-11-26;13;A Ház;2026-11-28;szabad;
-2026-11-26;13;A Ház;2026-11-29;szabad;
-2026-11-26;13;A Ház;2026-11-30;szabad;
-2026-11-26;13;A Ház;2026-12-01;szabad;
-2026-11-26;13;A Ház;2026-12-02;szabad;
-2026-11-26;13;A Ház;2026-12-03;szabad;
-2026-11-26;13;A Ház;2026-12-04;szabad;
-2026-11-26;13;A Ház;2026-12-05;szabad;
-2026-11-26;13;A Ház;2026-12-06;szabad;
-2026-11-26;13;A Ház;2026-12-07;szabad;
-2026-11-26;13;A Ház;2026-12-08;szabad;
-2026-11-26;13;A Ház;2026-12-09;szabad;
-2026-11-26;13;A Ház;2026-12-10;szabad;
-2026-11-26;13;A Ház;2026-12-11;szabad;
-2026-11-26;13;A Ház;2026-12-12;szabad;
-2026-11-26;13;A Ház;2026-12-13;szabad;
-2026-11-26;13;A Ház;2026-12-14;szabad;
-2026-11-26;13;A Ház;2026-12-15;szabad;
-2026-11-26;13;A Ház;2026-12-16;szabad;
-2026-11-26;13;A Ház;2026-12-17;szabad;
-2026-11-26;13;A Ház;2026-12-18;szabad;
-2026-11-26;13;A Ház;2026-12-19;szabad;
-2026-11-26;13;A Ház;2026-12-20;szabad;
-2026-11-26;13;A Ház;2026-12-21;szabad;
-2026-11-26;13;A Ház;2026-12-22;szabad;
-2026-11-26;13;A Ház;2026-12-23;szabad;
-2026-11-26;13;A Ház;2026-12-24;szabad;
-2026-11-26;13;A Ház;2026-12-25;szabad;
-2026-11-26;13;A Ház;2026-12-26;szabad;
-2026-11-26;13;A Ház;2026-12-27;szabad;
-2026-11-26;13;A Ház;2026-12-28;szabad;
-2026-11-26;13;A Ház;2026-12-29;szabad;
-2026-11-26;13;A Ház;2026-12-30;foglalt;xml
-2026-11-26;13;A Ház;2026-12-31;foglalt;xml
-2026-11-26;13;A Ház;2027-01-01;szabad;
-2026-11-26;13;A Ház;2027-01-02;szabad;
-2026-11-26;13;A Ház;2027-01-03;szabad;
-2026-11-26;13;A Ház;2027-01-04;szabad;
-2026-11-26;13;A Ház;2027-01-05;szabad;
-2026-11-26;13;A Ház;2027-01-06;szabad;
-2026-11-26;13;A Ház;2027-01-07;szabad;
-2026-11-26;13;A Ház;2027-01-08;szabad;
-2026-11-26;13;A Ház;2027-01-09;szabad;
-2026-11-26;13;A Ház;2027-01-10;szabad;
-2026-11-26;13;A Ház;2027-01-11;szabad;
-2026-11-26;13;A Ház;2027-01-12;szabad;
-2026-11-26;13;A Ház;2027-01-13;szabad;
-2026-11-26;13;A Ház;2027-01-14;szabad;
-2026-11-26;13;A Ház;2027-01-15;szabad;
-2026-11-26;13;A Ház;2027-01-16;szabad;
-2026-11-26;13;A Ház;2027-01-17;szabad;
-2026-11-26;13;A Ház;2027-01-18;szabad;
-2026-11-26;13;A Ház;2027-01-19;szabad;
-2026-11-26;13;A Ház;2027-01-20;szabad;
-2026-11-26;13;A Ház;2027-01-21;szabad;
-2026-11-26;13;A Ház;2027-01-22;szabad;
-2026-11-26;13;A Ház;2027-01-23;szabad;
-2026-11-26;13;A Ház;2027-01-24;szabad;
-2026-11-26;14;A Hely;2026-11-26;szabad;
-2026-11-26;14;A Hely;2026-11-27;szabad;
-2026-11-26;14;A Hely;2026-11-28;szabad;
-2026-11-26;14;A Hely;2026-11-29;szabad;
-2026-11-26;14;A Hely;2026-11-30;szabad;
-2026-11-26;14;A Hely;2026-12-01;szabad;
-2026-11-26;14;A Hely;2026-12-02;szabad;
-2026-11-26;14;A Hely;2026-12-03;szabad;
-2026-11-26;14;A Hely;2026-12-04;szabad;
-2026-11-26;14;A Hely;2026-12-05;szabad;
-2026-11-26;14;A Hely;2026-12-06;szabad;
-2026-11-26;14;A Hely;2026-12-07;szabad;
-2026-11-26;14;A Hely;2026-12-08;szabad;
-2026-11-26;14;A Hely;2026-12-09;szabad;
-2026-11-26;14;A Hely;2026-12-10;szabad;
-2026-11-26;14;A Hely;2026-12-11;szabad;
-2026-11-26;14;A Hely;2026-12-12;szabad;
-2026-11-26;14;A Hely;2026-12-13;szabad;
-2026-11-26;14;A Hely;2026-12-14;szabad;
-2026-11-26;14;A Hely;2026-12-15;szabad;
-2026-11-26;14;A Hely;2026-12-16;szabad;
-2026-11-26;14;A Hely;2026-12-17;szabad;
-2026-11-26;14;A Hely;2026-12-18;szabad;
-2026-11-26;14;A Hely;2026-12-19;szabad;
-2026-11-26;14;A Hely;2026-12-20;szabad;
-2026-11-26;14;A Hely;2026-12-21;szabad;
-2026-11-26;14;A Hely;2026-12-22;szabad;
-2026-11-26;14;A Hely;2026-12-23;szabad;
-2026-11-26;14;A Hely;2026-12-24;szabad;
-2026-11-26;14;A Hely;2026-12-25;szabad;
-2026-11-26;14;A Hely;2026-12-26;szabad;
-2026-11-26;14;A Hely;2026-12-27;szabad;
-2026-11-26;14;A Hely;2026-12-28;szabad;
-2026-11-26;14;A Hely;2026-12-29;szabad;
-2026-11-26;14;A Hely;2026-12-30;szabad;
-2026-11-26;14;A Hely;2026-12-31;foglalt;xml
-2026-11-26;14;A Hely;2027-01-01;szabad;
-2026-11-26;14;A Hely;2027-01-02;szabad;
-2026-11-26;14;A Hely;2027-01-03;szabad;
-2026-11-26;14;A Hely;2027-01-04;szabad;
-2026-11-26;14;A Hely;2027-01-05;szabad;
-2026-11-26;14;A Hely;2027-01-06;szabad;
-2026-11-26;14;A Hely;2027-01-07;szabad;
-2026-11-26;14;A Hely;2027-01-08;szabad;
-2026-11-26;14;A Hely;2027-01-09;szabad;
-2026-11-26;14;A Hely;2027-01-10;szabad;
-2026-11-26;14;A Hely;2027-01-11;szabad;
-2026-11-26;14;A Hely;2027-01-12;szabad;
-2026-11-26;14;A Hely;2027-01-13;szabad;
-2026-11-26;14;A Hely;2027-01-14;szabad;
-2026-11-26;14;A Hely;2027-01-15;szabad;
-2026-11-26;14;A Hely;2027-01-16;szabad;
-2026-11-26;14;A Hely;2027-01-17;szabad;
-2026-11-26;14;A Hely;2027-01-18;szabad;
-2026-11-26;14;A Hely;2027-01-19;szabad;
-2026-11-26;14;A Hely;2027-01-20;szabad;
-2026-11-26;14;A Hely;2027-01-21;szabad;
-2026-11-26;14;A Hely;2027-01-22;szabad;
-2026-11-26;14;A Hely;2027-01-23;szabad;
-2026-11-26;14;A Hely;2027-01-24;szabad;
-2026-11-26;15;Medvetalp Vendégház;2026-11-26;foglalt;2:Foglalt
+2026-11-26;9;LombTerasz;2027-01-25;szabad;jelolt
 2026-11-26;15;Medvetalp Vendégház;2026-11-27;foglalt;2:Foglalt
 2026-11-26;15;Medvetalp Vendégház;2026-11-28;foglalt;2:Foglalt
 2026-11-26;15;Medvetalp Vendégház;2026-11-29;foglalt;2:Foglalt
@@ -779,67 +598,127 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;15;Medvetalp Vendégház;2027-01-22;foglalt;2:Foglalt
 2026-11-26;15;Medvetalp Vendégház;2027-01-23;foglalt;2:Foglalt
 2026-11-26;15;Medvetalp Vendégház;2027-01-24;foglalt;2:Foglalt
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-11-26;reszben;ház1:S ház2:F
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-11-27;foglalt;ház1:F ház2:F
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-11-28;reszben;ház1:F ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-11-29;reszben;ház1:S ház2:F
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-11-30;reszben;ház1:F ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-01;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-02;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-03;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-04;reszben;ház1:S ház2:F
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-05;reszben;ház1:S ház2:F
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-06;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-07;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-08;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-09;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-10;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-11;reszben;ház1:F ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-12;reszben;ház1:F ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-13;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-14;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-15;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-16;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-17;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-18;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-19;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-20;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-21;reszben;ház1:F ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-22;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-23;reszben;ház1:F ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-24;foglalt;ház1:F ház2:F
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-25;foglalt;ház1:F ház2:F
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-26;foglalt;ház1:F ház2:F
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-27;foglalt;ház1:F ház2:F
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-28;foglalt;ház1:F ház2:F
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-29;reszben;ház1:S ház2:F
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-30;foglalt;ház1:F ház2:F
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2026-12-31;foglalt;ház1:F ház2:F
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-01;foglalt;ház1:F ház2:F
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-02;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-03;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-04;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-05;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-06;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-07;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-08;reszben;ház1:S ház2:F
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-09;reszben;ház1:S ház2:F
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-10;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-11;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-12;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-13;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-14;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-15;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-16;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-17;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-18;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-19;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-20;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-21;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-22;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-23;szabad;ház1:S ház2:S
-2026-11-26;16;Mesebeli Vendégház / Mesebeli ház;2027-01-24;szabad;ház1:S ház2:S
-2026-11-26;18;Kiskalács vendégház;2026-11-26;foglalt;booked 1/1
+2026-11-26;15;Medvetalp Vendégház;2027-01-25;foglalt;2:Foglalt
+2026-11-26;16;Mesebeli Vendégház;2026-11-27;foglalt;ház1
+2026-11-26;16;Mesebeli Vendégház;2026-11-28;foglalt;ház1
+2026-11-26;16;Mesebeli Vendégház;2026-11-29;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-11-30;foglalt;ház1
+2026-11-26;16;Mesebeli Vendégház;2026-12-01;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-02;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-03;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-04;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-05;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-06;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-07;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-08;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-09;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-10;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-11;foglalt;ház1
+2026-11-26;16;Mesebeli Vendégház;2026-12-12;foglalt;ház1
+2026-11-26;16;Mesebeli Vendégház;2026-12-13;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-14;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-15;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-16;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-17;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-18;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-19;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-20;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-21;foglalt;ház1
+2026-11-26;16;Mesebeli Vendégház;2026-12-22;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-23;foglalt;ház1
+2026-11-26;16;Mesebeli Vendégház;2026-12-24;foglalt;ház1
+2026-11-26;16;Mesebeli Vendégház;2026-12-25;foglalt;ház1
+2026-11-26;16;Mesebeli Vendégház;2026-12-26;foglalt;ház1
+2026-11-26;16;Mesebeli Vendégház;2026-12-27;foglalt;ház1
+2026-11-26;16;Mesebeli Vendégház;2026-12-28;foglalt;ház1
+2026-11-26;16;Mesebeli Vendégház;2026-12-29;szabad;
+2026-11-26;16;Mesebeli Vendégház;2026-12-30;foglalt;ház1
+2026-11-26;16;Mesebeli Vendégház;2026-12-31;foglalt;ház1
+2026-11-26;16;Mesebeli Vendégház;2027-01-01;foglalt;ház1
+2026-11-26;16;Mesebeli Vendégház;2027-01-02;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-03;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-04;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-05;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-06;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-07;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-08;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-09;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-10;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-11;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-12;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-13;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-14;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-15;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-16;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-17;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-18;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-19;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-20;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-21;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-22;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-23;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-24;szabad;
+2026-11-26;16;Mesebeli Vendégház;2027-01-25;szabad;
+2026-11-26;17;Mesebeli ház;2026-11-27;foglalt;ház2
+2026-11-26;17;Mesebeli ház;2026-11-28;szabad;
+2026-11-26;17;Mesebeli ház;2026-11-29;foglalt;ház2
+2026-11-26;17;Mesebeli ház;2026-11-30;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-01;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-02;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-03;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-04;foglalt;ház2
+2026-11-26;17;Mesebeli ház;2026-12-05;foglalt;ház2
+2026-11-26;17;Mesebeli ház;2026-12-06;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-07;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-08;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-09;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-10;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-11;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-12;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-13;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-14;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-15;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-16;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-17;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-18;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-19;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-20;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-21;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-22;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-23;szabad;
+2026-11-26;17;Mesebeli ház;2026-12-24;foglalt;ház2
+2026-11-26;17;Mesebeli ház;2026-12-25;foglalt;ház2
+2026-11-26;17;Mesebeli ház;2026-12-26;foglalt;ház2
+2026-11-26;17;Mesebeli ház;2026-12-27;foglalt;ház2
+2026-11-26;17;Mesebeli ház;2026-12-28;foglalt;ház2
+2026-11-26;17;Mesebeli ház;2026-12-29;foglalt;ház2
+2026-11-26;17;Mesebeli ház;2026-12-30;foglalt;ház2
+2026-11-26;17;Mesebeli ház;2026-12-31;foglalt;ház2
+2026-11-26;17;Mesebeli ház;2027-01-01;foglalt;ház2
+2026-11-26;17;Mesebeli ház;2027-01-02;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-03;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-04;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-05;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-06;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-07;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-08;foglalt;ház2
+2026-11-26;17;Mesebeli ház;2027-01-09;foglalt;ház2
+2026-11-26;17;Mesebeli ház;2027-01-10;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-11;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-12;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-13;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-14;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-15;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-16;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-17;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-18;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-19;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-20;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-21;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-22;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-23;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-24;szabad;
+2026-11-26;17;Mesebeli ház;2027-01-25;szabad;
 2026-11-26;18;Kiskalács vendégház;2026-11-27;foglalt;booked 1/1
 2026-11-26;18;Kiskalács vendégház;2026-11-28;foglalt;booked 1/1
 2026-11-26;18;Kiskalács vendégház;2026-11-29;szabad;booked 0/1
@@ -899,7 +778,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;18;Kiskalács vendégház;2027-01-22;foglalt;booked 1/1
 2026-11-26;18;Kiskalács vendégház;2027-01-23;foglalt;booked 1/1
 2026-11-26;18;Kiskalács vendégház;2027-01-24;szabad;booked 0/1
-2026-11-26;19;Moodhouse 2623;2026-11-26;foglalt;closed
+2026-11-26;18;Kiskalács vendégház;2027-01-25;szabad;booked 0/1
 2026-11-26;19;Moodhouse 2623;2026-11-27;foglalt;closed
 2026-11-26;19;Moodhouse 2623;2026-11-28;foglalt;closed
 2026-11-26;19;Moodhouse 2623;2026-11-29;szabad;jelolt
@@ -959,7 +838,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;19;Moodhouse 2623;2027-01-22;szabad;
 2026-11-26;19;Moodhouse 2623;2027-01-23;szabad;
 2026-11-26;19;Moodhouse 2623;2027-01-24;szabad;
-2026-11-26;21;Green House – why not;2026-11-26;foglalt;1/1 foglalás:1809082
+2026-11-26;19;Moodhouse 2623;2027-01-25;szabad;
 2026-11-26;21;Green House – why not;2026-11-27;foglalt;1/1 foglalás:1809082
 2026-11-26;21;Green House – why not;2026-11-28;foglalt;1/1 foglalás:1768972
 2026-11-26;21;Green House – why not;2026-11-29;foglalt;1/1 foglalás:1768972
@@ -1019,67 +898,67 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;21;Green House – why not;2027-01-22;foglalt;1/1 foglalás:1821768
 2026-11-26;21;Green House – why not;2027-01-23;foglalt;1/1 foglalás:1821768
 2026-11-26;21;Green House – why not;2027-01-24;szabad;
-2026-11-26;23;Vadlesen Vendégház;2026-11-26;szabad;
+2026-11-26;21;Green House – why not;2027-01-25;szabad;
 2026-11-26;23;Vadlesen Vendégház;2026-11-27;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2026-11-28;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2026-11-29;foglalt;lista
-2026-11-26;23;Vadlesen Vendégház;2026-11-30;foglalt;lista
+2026-11-26;23;Vadlesen Vendégház;2026-11-30;szabad;távozás napja
 2026-11-26;23;Vadlesen Vendégház;2026-12-01;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2026-12-02;foglalt;lista
-2026-11-26;23;Vadlesen Vendégház;2026-12-03;foglalt;lista
+2026-11-26;23;Vadlesen Vendégház;2026-12-03;szabad;távozás napja
 2026-11-26;23;Vadlesen Vendégház;2026-12-04;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2026-12-05;foglalt;lista
-2026-11-26;23;Vadlesen Vendégház;2026-12-06;foglalt;lista
+2026-11-26;23;Vadlesen Vendégház;2026-12-06;szabad;távozás napja
 2026-11-26;23;Vadlesen Vendégház;2026-12-07;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2026-12-08;foglalt;lista
-2026-11-26;23;Vadlesen Vendégház;2026-12-09;foglalt;lista
+2026-11-26;23;Vadlesen Vendégház;2026-12-09;szabad;távozás napja
 2026-11-26;23;Vadlesen Vendégház;2026-12-10;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2026-12-11;foglalt;lista
-2026-11-26;23;Vadlesen Vendégház;2026-12-12;szabad;lista: távozás napja
+2026-11-26;23;Vadlesen Vendégház;2026-12-12;szabad;távozás napja
 2026-11-26;23;Vadlesen Vendégház;2026-12-13;szabad;
 2026-11-26;23;Vadlesen Vendégház;2026-12-14;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2026-12-15;foglalt;lista
-2026-11-26;23;Vadlesen Vendégház;2026-12-16;szabad;lista: távozás napja
+2026-11-26;23;Vadlesen Vendégház;2026-12-16;szabad;távozás napja
 2026-11-26;23;Vadlesen Vendégház;2026-12-17;szabad;
 2026-11-26;23;Vadlesen Vendégház;2026-12-18;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2026-12-19;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2026-12-20;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2026-12-21;foglalt;lista
-2026-11-26;23;Vadlesen Vendégház;2026-12-22;foglalt;lista
+2026-11-26;23;Vadlesen Vendégház;2026-12-22;szabad;távozás napja
 2026-11-26;23;Vadlesen Vendégház;2026-12-23;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2026-12-24;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2026-12-25;foglalt;lista
-2026-11-26;23;Vadlesen Vendégház;2026-12-26;foglalt;lista
+2026-11-26;23;Vadlesen Vendégház;2026-12-26;szabad;távozás napja
 2026-11-26;23;Vadlesen Vendégház;2026-12-27;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2026-12-28;foglalt;lista
-2026-11-26;23;Vadlesen Vendégház;2026-12-29;foglalt;lista
+2026-11-26;23;Vadlesen Vendégház;2026-12-29;szabad;távozás napja
 2026-11-26;23;Vadlesen Vendégház;2026-12-30;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2026-12-31;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2027-01-01;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2027-01-02;foglalt;lista
-2026-11-26;23;Vadlesen Vendégház;2027-01-03;foglalt;lista
+2026-11-26;23;Vadlesen Vendégház;2027-01-03;szabad;távozás napja
 2026-11-26;23;Vadlesen Vendégház;2027-01-04;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2027-01-05;foglalt;lista
-2026-11-26;23;Vadlesen Vendégház;2027-01-06;foglalt;lista
+2026-11-26;23;Vadlesen Vendégház;2027-01-06;szabad;távozás napja
 2026-11-26;23;Vadlesen Vendégház;2027-01-07;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2027-01-08;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2027-01-09;foglalt;lista
-2026-11-26;23;Vadlesen Vendégház;2027-01-10;foglalt;lista
+2026-11-26;23;Vadlesen Vendégház;2027-01-10;szabad;távozás napja
 2026-11-26;23;Vadlesen Vendégház;2027-01-11;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2027-01-12;foglalt;lista
-2026-11-26;23;Vadlesen Vendégház;2027-01-13;szabad;lista: távozás napja
+2026-11-26;23;Vadlesen Vendégház;2027-01-13;szabad;távozás napja
 2026-11-26;23;Vadlesen Vendégház;2027-01-14;szabad;
 2026-11-26;23;Vadlesen Vendégház;2027-01-15;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2027-01-16;foglalt;lista
-2026-11-26;23;Vadlesen Vendégház;2027-01-17;szabad;lista: távozás napja
+2026-11-26;23;Vadlesen Vendégház;2027-01-17;szabad;távozás napja
 2026-11-26;23;Vadlesen Vendégház;2027-01-18;szabad;
 2026-11-26;23;Vadlesen Vendégház;2027-01-19;szabad;
 2026-11-26;23;Vadlesen Vendégház;2027-01-20;szabad;
 2026-11-26;23;Vadlesen Vendégház;2027-01-21;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2027-01-22;foglalt;lista
 2026-11-26;23;Vadlesen Vendégház;2027-01-23;foglalt;lista
-2026-11-26;23;Vadlesen Vendégház;2027-01-24;szabad;lista: távozás napja
-2026-11-26;24;Forest Chill;2026-11-26;szabad;
+2026-11-26;23;Vadlesen Vendégház;2027-01-24;szabad;távozás napja
+2026-11-26;23;Vadlesen Vendégház;2027-01-25;szabad;
 2026-11-26;24;Forest Chill;2026-11-27;foglalt;closed
 2026-11-26;24;Forest Chill;2026-11-28;foglalt;closed
 2026-11-26;24;Forest Chill;2026-11-29;szabad;jelolt
@@ -1139,7 +1018,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;24;Forest Chill;2027-01-22;szabad;jelolt
 2026-11-26;24;Forest Chill;2027-01-23;szabad;jelolt
 2026-11-26;24;Forest Chill;2027-01-24;szabad;jelolt
-2026-11-26;25;Oaklounge Apartman;2026-11-26;foglalt;1/1 foglalás:1839526
+2026-11-26;24;Forest Chill;2027-01-25;szabad;
 2026-11-26;25;Oaklounge Apartman;2026-11-27;szabad;
 2026-11-26;25;Oaklounge Apartman;2026-11-28;foglalt;1/1 foglalás:1835343
 2026-11-26;25;Oaklounge Apartman;2026-11-29;foglalt;1/1 foglalás:1835343
@@ -1199,7 +1078,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;25;Oaklounge Apartman;2027-01-22;szabad;
 2026-11-26;25;Oaklounge Apartman;2027-01-23;szabad;
 2026-11-26;25;Oaklounge Apartman;2027-01-24;szabad;
-2026-11-26;26;Vörösbegy Vendégház;2026-11-26;szabad;
+2026-11-26;25;Oaklounge Apartman;2027-01-25;szabad;
 2026-11-26;26;Vörösbegy Vendégház;2026-11-27;foglalt;closed
 2026-11-26;26;Vörösbegy Vendégház;2026-11-28;foglalt;closed
 2026-11-26;26;Vörösbegy Vendégház;2026-11-29;szabad;
@@ -1259,7 +1138,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;26;Vörösbegy Vendégház;2027-01-22;szabad;
 2026-11-26;26;Vörösbegy Vendégház;2027-01-23;szabad;
 2026-11-26;26;Vörösbegy Vendégház;2027-01-24;szabad;
-2026-11-26;27;Lombkabin;2026-11-26;foglalt;unavailable/available szabad:0/1
+2026-11-26;26;Vörösbegy Vendégház;2027-01-25;szabad;
 2026-11-26;27;Lombkabin;2026-11-27;foglalt;unavailable/available szabad:0/1
 2026-11-26;27;Lombkabin;2026-11-28;foglalt;unavailable/available szabad:0/1
 2026-11-26;27;Lombkabin;2026-11-29;zarva;unavailable/unavailable szabad:0/0
@@ -1319,7 +1198,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;27;Lombkabin;2027-01-22;foglalt;unavailable/available szabad:0/1
 2026-11-26;27;Lombkabin;2027-01-23;zarva;unavailable/unavailable szabad:0/0
 2026-11-26;27;Lombkabin;2027-01-24;foglalt;unavailable/available szabad:0/1
-2026-11-26;28;MÁK Kismaros;2026-11-26;szabad;
+2026-11-26;27;Lombkabin;2027-01-25;foglalt;unavailable/available szabad:0/1
 2026-11-26;28;MÁK Kismaros;2026-11-27;foglalt;closed
 2026-11-26;28;MÁK Kismaros;2026-11-28;foglalt;closed
 2026-11-26;28;MÁK Kismaros;2026-11-29;foglalt;closed
@@ -1379,7 +1258,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;28;MÁK Kismaros;2027-01-22;szabad;
 2026-11-26;28;MÁK Kismaros;2027-01-23;szabad;
 2026-11-26;28;MÁK Kismaros;2027-01-24;szabad;
-2026-11-26;29;Rókavölgy;2026-11-26;szabad;1:Elérhető
+2026-11-26;28;MÁK Kismaros;2027-01-25;szabad;
 2026-11-26;29;Rókavölgy;2026-11-27;szabad;1:Elérhető
 2026-11-26;29;Rókavölgy;2026-11-28;szabad;1:Elérhető
 2026-11-26;29;Rókavölgy;2026-11-29;szabad;1:Elérhető
@@ -1439,7 +1318,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;29;Rókavölgy;2027-01-22;szabad;1:Elérhető
 2026-11-26;29;Rókavölgy;2027-01-23;szabad;1:Elérhető
 2026-11-26;29;Rókavölgy;2027-01-24;szabad;1:Elérhető
-2026-11-26;30;e-Pagony vendégház;2026-11-26;foglalt;3:Érkezés
+2026-11-26;29;Rókavölgy;2027-01-25;szabad;1:Elérhető
 2026-11-26;30;e-Pagony vendégház;2026-11-27;foglalt;2:Foglalt
 2026-11-26;30;e-Pagony vendégház;2026-11-28;szabad;4:Távozás
 2026-11-26;30;e-Pagony vendégház;2026-11-29;szabad;1:Elérhető
@@ -1499,7 +1378,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;30;e-Pagony vendégház;2027-01-22;szabad;1:Elérhető
 2026-11-26;30;e-Pagony vendégház;2027-01-23;szabad;1:Elérhető
 2026-11-26;30;e-Pagony vendégház;2027-01-24;szabad;1:Elérhető
-2026-11-26;31;Csertölgy Villa & Home;2026-11-26;foglalt;booked szabad:0
+2026-11-26;30;e-Pagony vendégház;2027-01-25;szabad;1:Elérhető
 2026-11-26;31;Csertölgy Villa & Home;2026-11-27;foglalt;booked szabad:0
 2026-11-26;31;Csertölgy Villa & Home;2026-11-28;foglalt;booked szabad:0
 2026-11-26;31;Csertölgy Villa & Home;2026-11-29;foglalt;booked szabad:0
@@ -1559,7 +1438,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;31;Csertölgy Villa & Home;2027-01-22;foglalt;booked szabad:0
 2026-11-26;31;Csertölgy Villa & Home;2027-01-23;foglalt;booked szabad:0
 2026-11-26;31;Csertölgy Villa & Home;2027-01-24;foglalt;booked szabad:0
-2026-11-26;32;Pinewood Cabin;2026-11-26;foglalt;2:Foglalt
+2026-11-26;31;Csertölgy Villa & Home;2027-01-25;foglalt;booked szabad:0
 2026-11-26;32;Pinewood Cabin;2026-11-27;foglalt;2:Foglalt
 2026-11-26;32;Pinewood Cabin;2026-11-28;foglalt;2:Foglalt
 2026-11-26;32;Pinewood Cabin;2026-11-29;foglalt;2:Foglalt
@@ -1619,7 +1498,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;32;Pinewood Cabin;2027-01-22;szabad;1:Elérhető
 2026-11-26;32;Pinewood Cabin;2027-01-23;szabad;1:Elérhető
 2026-11-26;32;Pinewood Cabin;2027-01-24;szabad;1:Elérhető
-2026-11-26;34;Fészek Lombház;2026-11-26;foglalt;booked szabad:0
+2026-11-26;32;Pinewood Cabin;2027-01-25;szabad;1:Elérhető
 2026-11-26;34;Fészek Lombház;2026-11-27;szabad;available szabad:1
 2026-11-26;34;Fészek Lombház;2026-11-28;foglalt;booked szabad:0
 2026-11-26;34;Fészek Lombház;2026-11-29;foglalt;booked szabad:0
@@ -1679,7 +1558,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;34;Fészek Lombház;2027-01-22;szabad;available szabad:1
 2026-11-26;34;Fészek Lombház;2027-01-23;szabad;available szabad:1
 2026-11-26;34;Fészek Lombház;2027-01-24;szabad;available szabad:1
-2026-11-26;35;VELLESZ;2026-11-26;szabad;available
+2026-11-26;34;Fészek Lombház;2027-01-25;szabad;available szabad:1
 2026-11-26;35;VELLESZ;2026-11-27;foglalt;check_in
 2026-11-26;35;VELLESZ;2026-11-28;foglalt;full_day_booking
 2026-11-26;35;VELLESZ;2026-11-29;szabad;check_out
@@ -1739,7 +1618,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;35;VELLESZ;2027-01-22;foglalt;check_in
 2026-11-26;35;VELLESZ;2027-01-23;foglalt;full_day_booking
 2026-11-26;35;VELLESZ;2027-01-24;szabad;check_out
-2026-11-26;36;PompaDúr;2026-11-26;szabad;available
+2026-11-26;35;VELLESZ;2027-01-25;szabad;available
 2026-11-26;36;PompaDúr;2026-11-27;foglalt;check_in
 2026-11-26;36;PompaDúr;2026-11-28;foglalt;full_day_booking
 2026-11-26;36;PompaDúr;2026-11-29;szabad;check_out
@@ -1799,7 +1678,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;36;PompaDúr;2027-01-22;szabad;available
 2026-11-26;36;PompaDúr;2027-01-23;szabad;available
 2026-11-26;36;PompaDúr;2027-01-24;szabad;available
-2026-11-26;37;DÉZSAVŰ;2026-11-26;szabad;available
+2026-11-26;36;PompaDúr;2027-01-25;szabad;available
 2026-11-26;37;DÉZSAVŰ;2026-11-27;szabad;available
 2026-11-26;37;DÉZSAVŰ;2026-11-28;szabad;available
 2026-11-26;37;DÉZSAVŰ;2026-11-29;szabad;available
@@ -1859,7 +1738,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;37;DÉZSAVŰ;2027-01-22;szabad;available
 2026-11-26;37;DÉZSAVŰ;2027-01-23;szabad;available
 2026-11-26;37;DÉZSAVŰ;2027-01-24;szabad;available
-2026-11-26;38;myIKIGAI;2026-11-26;foglalt;1/1 foglalás:1799074
+2026-11-26;37;DÉZSAVŰ;2027-01-25;szabad;available
 2026-11-26;38;myIKIGAI;2026-11-27;foglalt;1/1 foglalás:1810165
 2026-11-26;38;myIKIGAI;2026-11-28;foglalt;1/1 foglalás:1810165
 2026-11-26;38;myIKIGAI;2026-11-29;szabad;
@@ -1919,7 +1798,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;38;myIKIGAI;2027-01-22;szabad;
 2026-11-26;38;myIKIGAI;2027-01-23;szabad;
 2026-11-26;38;myIKIGAI;2027-01-24;szabad;
-2026-11-26;39;Tölgyudvar Vendégház;2026-11-26;foglalt;full_day_booking
+2026-11-26;38;myIKIGAI;2027-01-25;szabad;
 2026-11-26;39;Tölgyudvar Vendégház;2026-11-27;foglalt;change_over
 2026-11-26;39;Tölgyudvar Vendégház;2026-11-28;foglalt;full_day_booking
 2026-11-26;39;Tölgyudvar Vendégház;2026-11-29;foglalt;change_over
@@ -1979,7 +1858,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;39;Tölgyudvar Vendégház;2027-01-22;foglalt;check_in
 2026-11-26;39;Tölgyudvar Vendégház;2027-01-23;foglalt;full_day_booking
 2026-11-26;39;Tölgyudvar Vendégház;2027-01-24;szabad;check_out
-2026-11-26;40;Villa Arbora;2026-11-26;foglalt;3:Érkezés napja
+2026-11-26;39;Tölgyudvar Vendégház;2027-01-25;szabad;available
 2026-11-26;40;Villa Arbora;2026-11-27;foglalt;2:Foglalt
 2026-11-26;40;Villa Arbora;2026-11-28;szabad;4:Távozás napja
 2026-11-26;40;Villa Arbora;2026-11-29;szabad;1:Szabad
@@ -2039,7 +1918,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;40;Villa Arbora;2027-01-22;szabad;1:Szabad
 2026-11-26;40;Villa Arbora;2027-01-23;szabad;1:Szabad
 2026-11-26;40;Villa Arbora;2027-01-24;szabad;1:Szabad
-2026-11-26;41;Woodland Lodge;2026-11-26;foglalt;closed
+2026-11-26;40;Villa Arbora;2027-01-25;szabad;1:Szabad
 2026-11-26;41;Woodland Lodge;2026-11-27;foglalt;closed
 2026-11-26;41;Woodland Lodge;2026-11-28;foglalt;closed
 2026-11-26;41;Woodland Lodge;2026-11-29;foglalt;closed
@@ -2099,7 +1978,7 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;41;Woodland Lodge;2027-01-22;foglalt;closed
 2026-11-26;41;Woodland Lodge;2027-01-23;foglalt;closed
 2026-11-26;41;Woodland Lodge;2027-01-24;foglalt;closed
-2026-11-26;42;Édenliget Vendégház;2026-11-26;szabad;
+2026-11-26;41;Woodland Lodge;2027-01-25;foglalt;closed
 2026-11-26;42;Édenliget Vendégház;2026-11-27;foglalt;1/1 foglalás:1838448
 2026-11-26;42;Édenliget Vendégház;2026-11-28;foglalt;1/1 foglalás:1838448
 2026-11-26;42;Édenliget Vendégház;2026-11-29;foglalt;1/1 foglalás:1838448
@@ -2159,3 +2038,4 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;42;Édenliget Vendégház;2027-01-22;szabad;
 2026-11-26;42;Édenliget Vendégház;2027-01-23;szabad;
 2026-11-26;42;Édenliget Vendégház;2027-01-24;szabad;
+2026-11-26;42;Édenliget Vendégház;2027-01-25;szabad;
