@@ -18,13 +18,21 @@ import time
 import traceback
 from zoneinfo import ZoneInfo
 
-from meres import resnweb, wpbc, wpbs
+from meres import appartman, egyedi, mphb, previo, resnweb, wpbc, wpbs
 from meres.kozos import FOGLALT, ISMERETLEN, RESZBEN, SZABAD, ZARVA
 
 ADAPTEREK = {
     "resnweb": lambda sor, kezdo, napok: resnweb.mer(sor["param"], kezdo, napok, int(sor["egysegek"] or 1)),
     "wpbc": lambda sor, kezdo, napok: wpbc.mer(sor["url"], kezdo, napok),
     "wpbs": lambda sor, kezdo, napok: wpbs.mer(sor["url"], kezdo, napok),
+    "appartman": lambda sor, kezdo, napok: appartman.mer(sor["param"], kezdo, napok),
+    "previo": lambda sor, kezdo, napok: previo.mer(sor["param"], kezdo, napok),
+    "mphb": lambda sor, kezdo, napok: mphb.mer(sor["url"], kezdo, napok, sor["param"] or None),
+    "ahazxml": lambda sor, kezdo, napok: egyedi.ahazxml(sor["param"], kezdo, napok),
+    "cozystay": lambda sor, kezdo, napok: egyedi.cozystay(sor["url"], kezdo, napok),
+    "vadlesen": lambda sor, kezdo, napok: egyedi.vadlesen(sor["param"], kezdo, napok),
+    "mesebeli": lambda sor, kezdo, napok: egyedi.mesebeli(sor["url"], kezdo, napok),
+    "dopbsp": lambda sor, kezdo, napok: egyedi.dopbsp(sor["url"], kezdo, napok, sor["param"] or "1"),
 }
 
 
