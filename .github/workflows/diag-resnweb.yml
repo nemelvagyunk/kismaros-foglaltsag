@@ -1,0 +1,21 @@
+name: Diagnosztika RESnWEB (ideiglenes)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: RESnWEB oldalak a GitHub szerveréről
+        run: |
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
+          for s in berckabin lombterasz woodlandlodge; do
+            code=$(curl -s -o p.html -w '%{http_code} %{url_effective}' -A "$UA" -H 'Accept-Language: hu-HU,hu;q=0.9' "https://nethotelbooking.net/hotels/$s/")
+            echo "== $s: $code, $(wc -c < p.html) bájt"
+            echo "title: $(grep -o '<title>[^<]*' p.html | head -1)"
+            echo "hash: $(grep -o "location.hash = '[A-Z0-9]*'" p.html | head -1 | cut -c1-30)…"
+            echo "img: $(grep -o 'images.resnweb.net/[0-9]*/' p.html | head -1)"
+            echo "eleje: $(head -c 400 p.html | tr '\n' ' ')"
+          done
