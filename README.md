@@ -6,12 +6,14 @@ ahol engedik, van, ahol nem).
 
 ## Mit csinál
 
-A `Napi foglaltságmérés` workflow minden nap 03:17 UTC-kor lefut (kézzel is indítható:
-Actions → Napi foglaltságmérés → Run workflow). Tesztként van egy tartalék indítás is
-06:47 UTC-kor: ez csak akkor mér, ha a fő mérés aznap kimaradt (a GitHub ütemezett
-indításai néha késnek vagy elmaradnak). Minden indítás egy sort ír az
-`adatok/inditasok.csv`-be (nap, típus: fo / tartalek / kezi, indulás UTC, mit csinált). Minden bekötött szállásnál lekéri a
-foglalási naptárat, és egy napi pillanatképet ment:
+A `Napi foglaltságmérés` workflow-t minden nap 04:17-kor (budapesti idő) egy Claude
+ütemezett feladat indítja (`workflow_dispatch`, `forras=claude`), mert a GitHub saját
+időzítője az új repóknál órákat késik vagy kimarad (2026. november). A workflow-ban
+maradt két GitHub-időpont (03:17 és 06:47 UTC) csak tartalék: akkor mér, ha aznap még
+nincs mérés. Kézzel is indítható: Actions → Napi foglaltságmérés → Run workflow.
+Minden indítás egy sort ír az `adatok/inditasok.csv`-be (nap, ki indította, indulás UTC,
+mit csinált). Minden bekötött szállásnál lekéri a foglalási naptárat, és egy napi
+pillanatképet ment:
 
 - `adatok/napi/ÉÉÉÉ-HH-NN.csv` – `meres_nap;szallas_id;szallas;ej;allapot;nyers`
   - `ej`: az az éjszaka, amely azon a napon kezdődik (első: a mérés másnapja)

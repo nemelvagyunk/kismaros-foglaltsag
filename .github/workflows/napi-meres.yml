@@ -2,9 +2,17 @@ name: Napi foglaltságmérés
 
 on:
   schedule:
-    - cron: "17 3 * * *"   # fő mérés: minden nap 03:17 UTC (Budapesten 04:17 / nyáron 05:17)
-    - cron: "47 6 * * *"   # tartalék (teszt): 06:47 UTC; csak akkor mér, ha a fő mérés aznap kimaradt
+    # A napi mérést 04:17-kor (budapesti idő) egy Claude ütemezett feladat indítja (workflow_dispatch, forras=claude),
+    # mert a GitHub saját időzítője az új repóknál órákat késik vagy kimarad (2026. 11.).
+    # Az alábbi két GitHub-időpont csak tartalék: akkor mér, ha aznap még nincs mérés.
+    - cron: "17 3 * * *"
+    - cron: "47 6 * * *"
   workflow_dispatch:
+    inputs:
+      forras:
+        description: "Ki indította (claude / kezi)"
+        required: false
+        default: "kezi"
 
 permissions:
   contents: write
@@ -12,9 +20,6 @@ permissions:
 concurrency:
   group: napi-meres
   cancel-in-progress: false
-
-env:
-  TARTALEK_CRON: "47 6 * * *"
 
 jobs:
   meres:
@@ -29,12 +34,12 @@ jobs:
           IDO=$(date -u +%H:%M)
           ESEMENY="${{ github.event_name }}"
           CRON="${{ github.event.schedule }}"
-          if [ "$CRON" = "$TARTALEK_CRON" ]; then TIPUS="tartalek"; elif [ "$ESEMENY" = "schedule" ]; then TIPUS="fo"; else TIPUS="kezi"; fi
+          if [ "$ESEMENY" = "schedule" ]; then TIPUS="github-idozito ($CRON)"; else TIPUS="${{ inputs.forras || 'kezi' }}"; fi
           [ -f adatok/inditasok.csv ] || echo "nap;tipus;inditas_utc;teendo" > adatok/inditasok.csv
-          if [ "$TIPUS" = "tartalek" ] && [ -f "adatok/naplo/$NAP.json" ]; then
+          if [ "$ESEMENY" = "schedule" ] && [ -f "adatok/naplo/$NAP.json" ]; then
             echo "meres=nem" >> "$GITHUB_OUTPUT"
             echo "$NAP;$TIPUS;$IDO;kihagyva (a mai mérés már megvan)" >> adatok/inditasok.csv
-            echo "Tartalék indítás: a mai mérés már megvan, kihagyva." >> "$GITHUB_STEP_SUMMARY"
+            echo "GitHub-időzítő: a mai mérés már megvan, kihagyva." >> "$GITHUB_STEP_SUMMARY"
           else
             echo "meres=igen" >> "$GITHUB_OUTPUT"
             echo "$NAP;$TIPUS;$IDO;mérés" >> adatok/inditasok.csv
@@ -52,6 +57,6 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add adatok
-          git commit -m "Napi mérés $(TZ=Europe/Budapest date +%F) (${{ steps.kell.outputs.meres == 'igen' && 'mérés' || 'tartalék kihagyva' }})" || echo "nincs változás"
+          git commit -m "Napi mérés $(TZ=Europe/Budapest date +%F) (${{ steps.kell.outputs.meres == 'igen' && 'mérés' || 'időzítő kihagyva' }})" || echo "nincs változás"
           git pull --rebase --quiet || true
           git push
