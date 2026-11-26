@@ -9,15 +9,15 @@ id;nev;motor;url;param;egysegek;megjegyzes
 8;BörzsönyPagony;wpbs;https://www.borzsonypagony.hu/booking/;;1;
 9;LombTerasz;resnweb;https://lombterasz.hu/foglalas/;lombterasz;1;
 10;Maroska (Forest Cabin, Pine, Lodge);resnweb;https://maroska.hu/foglalas/;maroska;3;a naptár a 3 házra együtt szól
-13;A Ház;ahazxml;https://ahazkismaros.hu/ahaz/foglalas_ar.php;https://ahazkismaros.hu/ahaz/foglalasok/foglalasok.xml;1;kézzel vezetett XML-naptár (a vendégneveket nem mentjük)
-14;A Hely;ahazxml;https://ahazkismaros.hu/ahely/foglalas_ar.php;https://ahazkismaros.hu/ahely/foglalasok/foglalasok.xml;1;kézzel vezetett XML-naptár (a vendégneveket nem mentjük)
+13;A Ház;ahazxml;https://ahazkismaros.hu/ahaz/foglalas_ar.php;https://ahazkismaros.hu/ahaz/foglalasok/foglalasok.xml;1;kézzel vezetett XML-naptár (a vendégneveket nem mentjük); 2026 szeptembere óta alig van benne bejegyzés, 2027-re egy sem – óvatosan kezelendő
+14;A Hely;ahazxml;https://ahazkismaros.hu/ahely/foglalas_ar.php;https://ahazkismaros.hu/ahely/foglalasok/foglalasok.xml;1;kézzel vezetett XML-naptár (a vendégneveket nem mentjük); 2026 szeptembere óta alig van benne bejegyzés, 2027-re egy sem – óvatosan kezelendő
 15;Medvetalp Vendégház;wpbs;https://www.medvetalpvendeghaz.hu/;;1;
 16;Mesebeli Vendégház / Mesebeli ház;mesebeli;https://mesebelivendeghaz.hu/;;2;házanként a nyers oszlopban
 18;Kiskalács vendégház;mphb;https://www.kiskalacs.hu/a-haziko/;;1;MotoPress
 19;Moodhouse 2623;resnweb;https://moodhouse2623.hu/arak-foglalas/;moodhouse;1;
 21;Green House – why not;appartman;https://greenhousewhynot.hu/;greenhouse-whynot;1;
 22;Csuszka Vendégház;nem_merheto;https://csuszkavendeghaz.hu/szallas-foglalas/;;1;csak foglalási űrlap, nincs naptár
-23;Vadlesen Vendégház;vadlesen;https://vadlesen.hu/foglalas;https://vadlesen.hu/foglaltsag;1;a lista a távozás napját is tartalmazza
+23;Vadlesen Vendégház;vadlesen;https://vadlesen.hu/foglalas;https://vadlesen.hu/foglaltsag;1;a lista foglalásonként az érkezéstől a távozás napjáig sorol; a blokk utolsó napja nem foglalt éj (élő naptárral ellenőrizve 2026-11-26)
 24;Forest Chill;resnweb;https://forestchill.hu/arak-foglalas/;forestchill;1;
 25;Oaklounge Apartman;appartman;https://oaklounge.hu/;oaklounge;1;
 26;Vörösbegy Vendégház;resnweb;https://nethotelbooking.net/hotels/vorosbegyapartman/;vorosbegyapartman;1;

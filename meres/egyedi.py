@@ -72,27 +72,43 @@ def cozystay(url, kezdo, napok):
 
 
 def vadlesen(url, kezdo, napok):
+    # A lista foglalásonként sorolja fel a napokat az érkezéstől a TÁVOZÁS
+    # napjáig (min. 2 éj = 3 dátum; nincs 2 dátumos blokk). A blokkokat a
+    # tömb sorrendje adja: a következő elem nem a előző+1 nap → új foglalás.
+    # Minden blokk utolsó napja távozás, annak az éjszakája nem foglalt.
     s = Munkamenet(referer=url)
     oldal = s.get(url)
-    lista = set()
-    for nev in ("reservedDates", "temporaryReservedDates"):
+    ejek, tavozas, talalt = set(), set(), False
+    for nev, cimke in (("reservedDates", "lista"), ("temporaryReservedDates", "ideiglenes")):
         m = re.search(nev + r"\s*=\s*(\[[^\]]*\])", oldal)
-        if m:
-            for x in json.loads(m.group(1)):
-                try:
-                    lista.add(dt.date.fromisoformat(x))
-                except ValueError:
-                    pass
-    if not lista:
+        if not m:
+            continue
+        talalt = True
+        datumok = []
+        for x in json.loads(m.group(1)):
+            try:
+                datumok.append(dt.date.fromisoformat(x))
+            except ValueError:
+                pass
+        blokk = []
+        for d in datumok + [None]:
+            if blokk and (d is None or d != blokk[-1] + dt.timedelta(days=1)):
+                ejek.update((n, cimke) for n in blokk[:-1])
+                tavozas.add(blokk[-1])
+                blokk = []
+            if d is not None:
+                blokk.append(d)
+    if not talalt:
         raise RuntimeError("nem található reservedDates az oldalon")
-    # összefüggő szakasz utolsó napja = távozás, az az éj szabad
-    ejek = {d for d in lista if (d + dt.timedelta(days=1)) in lista}
+    ej_cimke = {}
+    for n, c in ejek:
+        ej_cimke.setdefault(n, c)
     eredmeny = []
     for nap in _napok(kezdo, napok):
-        if nap in ejek:
-            eredmeny.append((nap, FOGLALT, "lista"))
-        elif nap in lista:
-            eredmeny.append((nap, SZABAD, "lista: távozás napja"))
+        if nap in ej_cimke:
+            eredmeny.append((nap, FOGLALT, ej_cimke[nap]))
+        elif nap in tavozas:
+            eredmeny.append((nap, SZABAD, "távozás napja"))
         else:
             eredmeny.append((nap, SZABAD, ""))
     return eredmeny
