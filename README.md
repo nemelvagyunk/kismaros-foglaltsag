@@ -1,6 +1,8 @@
 # kismaros-foglaltsag
 
-Börzsönyligeti konkurens szállások foglaltságának napi mérése, 60 éjszakára előre.
+Börzsönyligeti konkurens szállások foglaltságának napi mérése, 60 éjszakára előre,
+a mérés napját követő éjtől (az aznapi éjt kihagyjuk, mert az aznapi foglalást van,
+ahol engedik, van, ahol nem).
 
 ## Mit csinál
 
@@ -9,7 +11,7 @@ Actions → Napi foglaltságmérés → Run workflow). Minden bekötött száll�
 foglalási naptárat, és egy napi pillanatképet ment:
 
 - `adatok/napi/ÉÉÉÉ-HH-NN.csv` – `meres_nap;szallas_id;szallas;ej;allapot;nyers`
-  - `ej`: az az éjszaka, amely azon a napon kezdődik
+  - `ej`: az az éjszaka, amely azon a napon kezdődik (első: a mérés másnapja)
   - `allapot`: `foglalt` / `szabad` / `zarva` (a naptár lezártként jelöli) / `reszben`
     (több egységnél: van foglalt, de nem mind) / `ismeretlen`
   - `nyers`: a naptár eredeti jelölése (ellenőrzéshez)

@@ -1,6 +1,8 @@
 """Napi foglaltságmérés.
 
-Minden mérhető szállásnál lekéri a következő N nap (alapból 60) éjszakáinak állapotát,
+Minden mérhető szállásnál lekéri a következő N éjszaka (alapból 60) állapotát, a mérés
+napját követő éjtől kezdve (az aznapi éjt kihagyjuk: az aznapi foglalást van, ahol
+engedik, van, ahol nem),
 és egy napi pillanatképet ír: adatok/napi/ÉÉÉÉ-HH-NN.csv
   meres_nap;szallas_id;szallas;ej;allapot;nyers
 ahol az "ej" az az éjszaka, amely azon a napon kezdődik.
@@ -44,6 +46,7 @@ def main():
     args = ap.parse_args()
 
     ma = dt.datetime.now(ZoneInfo("Europe/Budapest")).date()
+    kezdo = ma + dt.timedelta(days=1)
     csak = {x.strip() for x in args.csak.split(",") if x.strip()}
     sorok = list(csv.DictReader(open("szallasok.csv", encoding="utf-8"), delimiter=";"))
 
@@ -60,11 +63,11 @@ def main():
             continue
         t0 = time.time()
         try:
-            napok = ADAPTEREK[motor](sor, ma, args.napok)
+            napok = ADAPTEREK[motor](sor, kezdo, args.napok)
             for nap, allapot, nyers in napok:
                 kimenet.append([ma.isoformat(), sor["id"], sor["nev"], nap.isoformat(), allapot, nyers])
             db = {a: sum(1 for _, x, _ in napok if x == a) for a in (FOGLALT, SZABAD, ZARVA, RESZBEN, ISMERETLEN)}
-            db14 = sum(1 for n, x, _ in napok if x == FOGLALT and (n - ma).days < 14)
+            db14 = sum(1 for n, x, _ in napok if x == FOGLALT and (n - kezdo).days < 14)
             naplo.append({"id": sor["id"], "szallas": sor["nev"], "motor": motor, "eredmeny": "ok",
                           "napok": len(napok), "foglalt_14": db14, **db, "ido_s": round(time.time() - t0, 1)})
             print(f"OK   {sor['id']:>3} {sor['nev'][:32]:32} {motor:8} foglalt {db[FOGLALT]:>2}/{len(napok)} "
@@ -81,7 +84,7 @@ def main():
         w = csv.writer(f, delimiter=";")
         w.writerow(["meres_nap", "szallas_id", "szallas", "ej", "allapot", "nyers"])
         w.writerows(kimenet)
-    json.dump({"meres_nap": ma.isoformat(), "napok": args.napok, "szallasok": naplo},
+    json.dump({"meres_nap": ma.isoformat(), "elso_ej": kezdo.isoformat(), "napok": args.napok, "szallasok": naplo},
               open(os.path.join(args.kimenet, "naplo", f"{ma.isoformat()}.json"), "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
 
