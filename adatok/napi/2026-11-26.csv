@@ -421,10 +421,10 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;7;Tölgy kabin;2027-01-25;szabad;available avail:1
 2026-11-26;8;BörzsönyPagony;2026-11-27;foglalt;3:?
 2026-11-26;8;BörzsönyPagony;2026-11-28;foglalt;2:Foglalt
-2026-11-26;8;BörzsönyPagony;2026-11-29;szabad;4:?
-2026-11-26;8;BörzsönyPagony;2026-11-30;szabad;1:Elérhető
-2026-11-26;8;BörzsönyPagony;2026-12-01;szabad;1:Elérhető
-2026-11-26;8;BörzsönyPagony;2026-12-02;foglalt;3:?
+2026-11-26;8;BörzsönyPagony;2026-11-29;foglalt;5:Foglalás alatt
+2026-11-26;8;BörzsönyPagony;2026-11-30;foglalt;5:Foglalás alatt
+2026-11-26;8;BörzsönyPagony;2026-12-01;foglalt;5:Foglalás alatt
+2026-11-26;8;BörzsönyPagony;2026-12-02;foglalt;5:Foglalás alatt
 2026-11-26;8;BörzsönyPagony;2026-12-03;foglalt;2:Foglalt
 2026-11-26;8;BörzsönyPagony;2026-12-04;foglalt;2:Foglalt
 2026-11-26;8;BörzsönyPagony;2026-12-05;foglalt;2:Foglalt
@@ -1433,8 +1433,8 @@ meres_nap;szallas_id;szallas;ej;allapot;nyers
 2026-11-26;31;Csertölgy Villa & Home;2027-01-17;szabad;available szabad:1
 2026-11-26;31;Csertölgy Villa & Home;2027-01-18;szabad;available szabad:1
 2026-11-26;31;Csertölgy Villa & Home;2027-01-19;szabad;available szabad:1
-2026-11-26;31;Csertölgy Villa & Home;2027-01-20;szabad;available szabad:1
-2026-11-26;31;Csertölgy Villa & Home;2027-01-21;szabad;available szabad:1
+2026-11-26;31;Csertölgy Villa & Home;2027-01-20;foglalt;booked szabad:0
+2026-11-26;31;Csertölgy Villa & Home;2027-01-21;foglalt;booked szabad:0
 2026-11-26;31;Csertölgy Villa & Home;2027-01-22;foglalt;booked szabad:0
 2026-11-26;31;Csertölgy Villa & Home;2027-01-23;foglalt;booked szabad:0
 2026-11-26;31;Csertölgy Villa & Home;2027-01-24;foglalt;booked szabad:0
