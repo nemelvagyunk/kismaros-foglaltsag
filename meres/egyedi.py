@@ -114,7 +114,8 @@ def vadlesen(url, kezdo, napok):
     return eredmeny
 
 
-def mesebeli(url, kezdo, napok):
+def mesebeli(url, kezdo, napok, haz=None):
+    """haz: accommodationId (1 = Gálhegyi út 71., 2 = Harangvirág u. 13.); None = összevont."""
     s = Munkamenet(referer=url)
     oldal = s.get(url)
     m = re.search(r"\"unavailableRanges\"\s*:\s*\[", oldal)
@@ -122,9 +123,13 @@ def mesebeli(url, kezdo, napok):
         raise RuntimeError("nem található unavailableRanges az oldalon")
     tartomanyok, _ = json.JSONDecoder().raw_decode(oldal[m.end() - 1:])
     hazak = sorted({str(t.get("accommodationId")) for t in tartomanyok}) or ["1"]
-    for a in re.findall(r"\"accommodationId\"\s*:\s*(\d+)", oldal):
+    for a in re.findall(r"\"accommodationId\"\s*:\s*(\d+)", oldal) + re.findall(r"data-accommodation-card=\"(\d+)\"", oldal):
         if a not in hazak:
             hazak.append(a)
+    if haz is not None:
+        haz = str(haz)
+        if haz not in hazak:
+            raise RuntimeError(f"nincs {haz}. ház az oldalon (talált: {', '.join(hazak)})")
     foglalt = {h: set() for h in hazak}
     for t in tartomanyok:
         try:
@@ -136,6 +141,9 @@ def mesebeli(url, kezdo, napok):
         while d < v:
             foglalt.setdefault(str(t.get("accommodationId")), set()).add(d)
             d += dt.timedelta(days=1)
+    if haz is not None:
+        return [(nap, FOGLALT, f"ház{haz}") if nap in foglalt.get(haz, ()) else (nap, SZABAD, "")
+                for nap in _napok(kezdo, napok)]
     eredmeny = []
     for nap in _napok(kezdo, napok):
         db = sum(1 for h in hazak if nap in foglalt.get(h, ()))

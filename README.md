@@ -32,12 +32,12 @@ A napi pillanatképekből később kiszámolható a kihasználtság, és az is, 
   - `previo.py` – Previo (get-seasons)
   - `mphb.py` – MotoPress Hotel Booking (v6 REST, v5 ajax, v3/4 inline adat)
   - `egyedi.py` – egyedi naptárak: A Ház / A Hely (XML), CozyStay (Lombkabin),
-    Vadlesen, Pinpoint / DOPBSP (Tölgy kabin); a `mesebeli` adapter megmaradt, de nincs használatban
+    Vadlesen, Mesebeli (házanként: param = accommodationId), Pinpoint / DOPBSP (Tölgy kabin)
 - `teszt/` – egyszeri elérhetőségi teszt (2026. 11. 26.)
 
 ## Lefedettség
 
-34 bejegyzés, a konkurencia-tábla 42 sorából 34-et fed le. Nem mérhető: Csuszka és Maja (csak űrlapos
+36 bejegyzés, a konkurencia-tábla 42 sorából 36-ot fed le. Nem mérhető: Csuszka és Maja (csak űrlapos
 foglalás).
 
 ## Korlátok
@@ -56,5 +56,8 @@ foglalás).
 
 Kihagyva a mérésből (Attila döntései, 2026. 11. 26.):
 - Redibo erdei vendégház: a GitHub szerveréről 403-mal tilt.
-- Maroska (3 ház) és Mesebeli (2 ház): a közös naptárból nem derül ki, melyik ház foglalt,
-  így a foglaltságuk nem összevethető. Az első napi mérésben (2026-11-26.csv) még benne vannak.
+- Maroska (3 ház): a közös naptárból nem derül ki, melyik ház foglalt, így a foglaltsága
+  nem összevethető. Az első napi mérésben (2026-11-26.csv) még benne van.
+
+A Mesebeli 2 háza 2026. 11. 27-től két külön bejegyzés (16, 17); az első napi mérésben
+még összevonva szerepelnek 16-os azonosítóval (`nyers`: ház1 / ház2).

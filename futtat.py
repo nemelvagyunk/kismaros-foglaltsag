@@ -31,7 +31,7 @@ ADAPTEREK = {
     "ahazxml": lambda sor, kezdo, napok: egyedi.ahazxml(sor["param"], kezdo, napok),
     "cozystay": lambda sor, kezdo, napok: egyedi.cozystay(sor["url"], kezdo, napok),
     "vadlesen": lambda sor, kezdo, napok: egyedi.vadlesen(sor["param"], kezdo, napok),
-    "mesebeli": lambda sor, kezdo, napok: egyedi.mesebeli(sor["url"], kezdo, napok),
+    "mesebeli": lambda sor, kezdo, napok: egyedi.mesebeli(sor["url"], kezdo, napok, sor["param"] or None),
     "dopbsp": lambda sor, kezdo, napok: egyedi.dopbsp(sor["url"], kezdo, napok, sor["param"] or "1"),
 }
 
