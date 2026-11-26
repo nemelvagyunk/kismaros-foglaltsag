@@ -7,7 +7,10 @@ ahol engedik, van, ahol nem).
 ## Mit csinál
 
 A `Napi foglaltságmérés` workflow minden nap 03:17 UTC-kor lefut (kézzel is indítható:
-Actions → Napi foglaltságmérés → Run workflow). Minden bekötött szállásnál lekéri a
+Actions → Napi foglaltságmérés → Run workflow). Tesztként van egy tartalék indítás is
+06:47 UTC-kor: ez csak akkor mér, ha a fő mérés aznap kimaradt (a GitHub ütemezett
+indításai néha késnek vagy elmaradnak). Minden indítás egy sort ír az
+`adatok/inditasok.csv`-be (nap, típus: fo / tartalek / kezi, indulás UTC, mit csinált). Minden bekötött szállásnál lekéri a
 foglalási naptárat, és egy napi pillanatképet ment:
 
 - `adatok/napi/ÉÉÉÉ-HH-NN.csv` – `meres_nap;szallas_id;szallas;ej;allapot;nyers`

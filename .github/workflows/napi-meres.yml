@@ -2,7 +2,8 @@ name: Napi foglaltságmérés
 
 on:
   schedule:
-    - cron: "17 3 * * *"   # minden nap 03:17 UTC (Budapesten 04:17 / nyáron 05:17)
+    - cron: "17 3 * * *"   # fő mérés: minden nap 03:17 UTC (Budapesten 04:17 / nyáron 05:17)
+    - cron: "47 6 * * *"   # tartalék (teszt): 06:47 UTC; csak akkor mér, ha a fő mérés aznap kimaradt
   workflow_dispatch:
 
 permissions:
@@ -12,16 +13,38 @@ concurrency:
   group: napi-meres
   cancel-in-progress: false
 
+env:
+  TARTALEK_CRON: "47 6 * * *"
+
 jobs:
   meres:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+      - name: Kell-e mérni? (és a teszt naplója)
+        id: kell
+        run: |
+          NAP=$(TZ=Europe/Budapest date +%F)
+          IDO=$(date -u +%H:%M)
+          ESEMENY="${{ github.event_name }}"
+          CRON="${{ github.event.schedule }}"
+          if [ "$CRON" = "$TARTALEK_CRON" ]; then TIPUS="tartalek"; elif [ "$ESEMENY" = "schedule" ]; then TIPUS="fo"; else TIPUS="kezi"; fi
+          [ -f adatok/inditasok.csv ] || echo "nap;tipus;inditas_utc;teendo" > adatok/inditasok.csv
+          if [ "$TIPUS" = "tartalek" ] && [ -f "adatok/naplo/$NAP.json" ]; then
+            echo "meres=nem" >> "$GITHUB_OUTPUT"
+            echo "$NAP;$TIPUS;$IDO;kihagyva (a mai mérés már megvan)" >> adatok/inditasok.csv
+            echo "Tartalék indítás: a mai mérés már megvan, kihagyva." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "meres=igen" >> "$GITHUB_OUTPUT"
+            echo "$NAP;$TIPUS;$IDO;mérés" >> adatok/inditasok.csv
+          fi
       - uses: actions/setup-python@v5
+        if: steps.kell.outputs.meres == 'igen'
         with:
           python-version: "3.12"
       - name: Mérés (60 nap előre)
+        if: steps.kell.outputs.meres == 'igen'
         run: python futtat.py --napok 60
       - name: Adatok mentése a repóba
         if: always()
@@ -29,6 +52,6 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add adatok
-          git commit -m "Napi mérés $(TZ=Europe/Budapest date +%F)" || echo "nincs változás"
+          git commit -m "Napi mérés $(TZ=Europe/Budapest date +%F) (${{ steps.kell.outputs.meres == 'igen' && 'mérés' || 'tartalék kihagyva' }})" || echo "nincs változás"
           git pull --rebase --quiet || true
           git push
