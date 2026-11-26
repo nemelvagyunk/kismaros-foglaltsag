@@ -14,7 +14,7 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 19.3
+   "ido_s": 4.4
   },
   {
    "id": "2",
@@ -42,13 +42,21 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 2.5
+   "ido_s": 3.2
   },
   {
    "id": "4",
    "szallas": "BOHÉM Kabin & Wellness",
-   "motor": "kesobb",
-   "eredmeny": "nincs bekötve"
+   "motor": "previo",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 14,
+   "foglalt": 32,
+   "szabad": 28,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 2.7
   },
   {
    "id": "5",
@@ -62,7 +70,7 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 3.2
+   "ido_s": 3.6
   },
   {
    "id": "6",
@@ -76,13 +84,21 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 3.4
+   "ido_s": 4.2
   },
   {
    "id": "7",
    "szallas": "Tölgy kabin",
-   "motor": "kesobb",
-   "eredmeny": "nincs bekötve"
+   "motor": "dopbsp",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 11,
+   "foglalt": 38,
+   "szabad": 22,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 3.3
   },
   {
    "id": "8",
@@ -96,7 +112,7 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 4.3
+   "ido_s": 5.2
   },
   {
    "id": "9",
@@ -110,7 +126,7 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 3.4
+   "ido_s": 4.0
   },
   {
    "id": "10",
@@ -124,19 +140,35 @@
    "zarva": 0,
    "reszben": 27,
    "ismeretlen": 0,
-   "ido_s": 13.6
+   "ido_s": 4.0
   },
   {
    "id": "13",
    "szallas": "A Ház",
-   "motor": "kesobb",
-   "eredmeny": "nincs bekötve"
+   "motor": "ahazxml",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 0,
+   "foglalt": 2,
+   "szabad": 58,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 1.1
   },
   {
    "id": "14",
    "szallas": "A Hely",
-   "motor": "kesobb",
-   "eredmeny": "nincs bekötve"
+   "motor": "ahazxml",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 0,
+   "foglalt": 1,
+   "szabad": 59,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 0.7
   },
   {
    "id": "15",
@@ -150,19 +182,35 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 7.2
+   "ido_s": 9.0
   },
   {
    "id": "16",
    "szallas": "Mesebeli Vendégház / Mesebeli ház",
-   "motor": "kesobb",
-   "eredmeny": "nincs bekötve"
+   "motor": "mesebeli",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 1,
+   "foglalt": 9,
+   "szabad": 38,
+   "zarva": 0,
+   "reszben": 13,
+   "ismeretlen": 0,
+   "ido_s": 1.6
   },
   {
    "id": "18",
    "szallas": "Kiskalács vendégház",
-   "motor": "kesobb",
-   "eredmeny": "nincs bekötve"
+   "motor": "mphb",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 6,
+   "foglalt": 32,
+   "szabad": 28,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 1.5
   },
   {
    "id": "19",
@@ -176,25 +224,41 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 3.1
+   "ido_s": 4.1
   },
   {
    "id": "21",
    "szallas": "Green House – why not",
-   "motor": "kesobb",
-   "eredmeny": "nincs bekötve"
+   "motor": "appartman",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 13,
+   "foglalt": 45,
+   "szabad": 15,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 1.8
   },
   {
    "id": "22",
    "szallas": "Csuszka Vendégház",
-   "motor": "kesobb",
+   "motor": "nem_merheto",
    "eredmeny": "nincs bekötve"
   },
   {
    "id": "23",
    "szallas": "Vadlesen Vendégház",
-   "motor": "kesobb",
-   "eredmeny": "nincs bekötve"
+   "motor": "vadlesen",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 13,
+   "foglalt": 48,
+   "szabad": 12,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 1.8
   },
   {
    "id": "24",
@@ -208,13 +272,21 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 3.4
+   "ido_s": 4.0
   },
   {
    "id": "25",
    "szallas": "Oaklounge Apartman",
-   "motor": "kesobb",
-   "eredmeny": "nincs bekötve"
+   "motor": "appartman",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 5,
+   "foglalt": 23,
+   "szabad": 37,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 1.1
   },
   {
    "id": "26",
@@ -228,13 +300,21 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 13.8
+   "ido_s": 4.1
   },
   {
    "id": "27",
    "szallas": "Lombkabin",
-   "motor": "kesobb",
-   "eredmeny": "nincs bekötve"
+   "motor": "cozystay",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 13,
+   "foglalt": 46,
+   "szabad": 1,
+   "zarva": 13,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 3.1
   },
   {
    "id": "28",
@@ -248,7 +328,7 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 3.3
+   "ido_s": 3.9
   },
   {
    "id": "29",
@@ -262,7 +342,7 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 5.8
+   "ido_s": 6.8
   },
   {
    "id": "30",
@@ -276,13 +356,21 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 8.1
+   "ido_s": 10.6
   },
   {
    "id": "31",
    "szallas": "Csertölgy Villa & Home",
-   "motor": "kesobb",
-   "eredmeny": "nincs bekötve"
+   "motor": "mphb",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 14,
+   "foglalt": 42,
+   "szabad": 18,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 3.6
   },
   {
    "id": "32",
@@ -296,19 +384,27 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 5.0
+   "ido_s": 6.2
   },
   {
    "id": "33",
    "szallas": "Maja Erdei Pihenőház",
-   "motor": "kesobb",
+   "motor": "nem_merheto",
    "eredmeny": "nincs bekötve"
   },
   {
    "id": "34",
    "szallas": "Fészek Lombház",
-   "motor": "kesobb",
-   "eredmeny": "nincs bekötve"
+   "motor": "mphb",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 7,
+   "foglalt": 33,
+   "szabad": 27,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 6.0
   },
   {
    "id": "35",
@@ -322,7 +418,7 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 4.0
+   "ido_s": 8.1
   },
   {
    "id": "36",
@@ -336,7 +432,7 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 3.3
+   "ido_s": 4.4
   },
   {
    "id": "37",
@@ -350,13 +446,21 @@
    "zarva": 1,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 3.6
+   "ido_s": 4.3
   },
   {
    "id": "38",
    "szallas": "myIKIGAI",
-   "motor": "kesobb",
-   "eredmeny": "nincs bekötve"
+   "motor": "appartman",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 7,
+   "foglalt": 25,
+   "szabad": 35,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 0.5
   },
   {
    "id": "39",
@@ -370,7 +474,7 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 5.6
+   "ido_s": 6.4
   },
   {
    "id": "40",
@@ -384,7 +488,7 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 6.9
+   "ido_s": 6.2
   },
   {
    "id": "41",
@@ -398,13 +502,21 @@
    "zarva": 0,
    "reszben": 0,
    "ismeretlen": 0,
-   "ido_s": 3.2
+   "ido_s": 3.9
   },
   {
    "id": "42",
    "szallas": "Édenliget Vendégház",
-   "motor": "kesobb",
-   "eredmeny": "nincs bekötve"
+   "motor": "appartman",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 3,
+   "foglalt": 17,
+   "szabad": 43,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 0.5
   }
  ]
 }
