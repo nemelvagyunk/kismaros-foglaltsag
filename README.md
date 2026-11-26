@@ -32,21 +32,18 @@ A napi pillanatképekből később kiszámolható a kihasználtság, és az is, 
   - `previo.py` – Previo (get-seasons)
   - `mphb.py` – MotoPress Hotel Booking (v6 REST, v5 ajax, v3/4 inline adat)
   - `egyedi.py` – egyedi naptárak: A Ház / A Hely (XML), CozyStay (Lombkabin),
-    Vadlesen, Mesebeli (2 ház), Pinpoint / DOPBSP (Tölgy kabin)
+    Vadlesen, Pinpoint / DOPBSP (Tölgy kabin); a `mesebeli` adapter megmaradt, de nincs használatban
 - `teszt/` – egyszeri elérhetőségi teszt (2026. 11. 26.)
 
 ## Lefedettség
 
-36 bejegyzés, a konkurencia-tábla 42 sorából 39-et fed le (a Maroska 3 háza és a
-Mesebeli 2 háza egy-egy bejegyzés). Nem mérhető: Csuszka és Maja (csak űrlapos
+34 bejegyzés, a konkurencia-tábla 42 sorából 34-et fed le. Nem mérhető: Csuszka és Maja (csak űrlapos
 foglalás).
 
 ## Korlátok
 
 - A foglalt nap nem mindig valódi foglalás: lehet a tulajdonos zárolása is. A napi
   adatokból ez részben kiszűrhető (ha egy éj röviddel előtte telik be, az foglalás).
-- A Maroska RESnWEB-naptára a 3 házra együtt szól: `foglalt` = mindhárom ház foglalt,
-  `reszben` = legalább egy foglalt. A Mesebeli 2 házánál ugyanígy.
 - Vadlesen: a lista foglalásonként az érkezéstől a távozás napjáig sorolja a napokat
   (min. 2 éj = 3 dátum). A blokk utolsó napja távozás, annak éjszakája `szabad`
   („távozás napja” a `nyers` oszlopban). Távozás 15:00-ig, érkezés 12:00-tól, ezért
@@ -57,4 +54,7 @@ foglalás).
 - Lombkabin (CozyStay): a naptár szinte minden napot tiltottnak mutat; ezt az élő
   oldallal ellenőriztük (2026. 11. 26.), egyezik.
 
-Kihagyva a mérésből: Redibo erdei vendégház (a GitHub szerveréről 403-mal tilt; Attila döntése, 2026. 11. 26.).
+Kihagyva a mérésből (Attila döntései, 2026. 11. 26.):
+- Redibo erdei vendégház: a GitHub szerveréről 403-mal tilt.
+- Maroska (3 ház) és Mesebeli (2 ház): a közös naptárból nem derül ki, melyik ház foglalt,
+  így a foglaltságuk nem összevethető. Az első napi mérésben (2026-11-26.csv) még benne vannak.
