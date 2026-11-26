@@ -49,8 +49,8 @@ foglalás).
   `reszben` = legalább egy foglalt. A Mesebeli 2 házánál ugyanígy.
 - Vadlesen: a lista foglalásonként az érkezéstől a távozás napjáig sorolja a napokat
   (min. 2 éj = 3 dátum). A blokk utolsó napja távozás, annak éjszakája `szabad`
-  („távozás napja” a `nyers` oszlopban). A rendszer miatt erre a napra új vendég sem
-  érkezhet, így ezek az éjek gyakorlatilag eladhatatlanok.
+  („távozás napja” a `nyers` oszlopban). Távozás 15:00-ig, érkezés 12:00-tól, ezért
+  távozási napra nem fogadnak új vendéget; ezek az éjek gyakorlatilag eladhatatlanok.
 - A Ház / A Hely: kézzel vezetett XML-naptár; 2026 szeptembere óta alig van benne
   bejegyzés, 2027-re egy sem – lehet valódi visszaesés, de az is, hogy nem vezetik.
   A vendégneveket és e-mail-címeket a mérés nem tárolja, csak a dátumokat.
