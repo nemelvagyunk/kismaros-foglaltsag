@@ -1,0 +1,348 @@
+{
+ "meres_nap": "2026-11-28",
+ "elso_ej": "2026-11-29",
+ "napok": 60,
+ "szallasok": [
+  {
+   "id": "1",
+   "szallas": "Bérc Kabin",
+   "motor": "resnweb",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található sid vagy szállodaazonosító az oldalon (3 próbálkozás, utolsó válasz 0 bájt)"
+  },
+  {
+   "id": "2",
+   "szallas": "Börzsönyi Ékszerdoboz",
+   "motor": "wpbc",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található WP Booking Calendar naptár az oldalon"
+  },
+  {
+   "id": "3",
+   "szallas": "Lomboldal",
+   "motor": "wpbc",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található WP Booking Calendar naptár az oldalon"
+  },
+  {
+   "id": "4",
+   "szallas": "BOHÉM Kabin & Wellness",
+   "motor": "previo",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 13,
+   "foglalt": 29,
+   "szabad": 31,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 2.8
+  },
+  {
+   "id": "5",
+   "szallas": "Aligvárlak Vendégház",
+   "motor": "wpbc",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 4,
+   "foglalt": 27,
+   "szabad": 33,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 4.1
+  },
+  {
+   "id": "6",
+   "szallas": "3SIDE Dunakanyar",
+   "motor": "resnweb",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található sid vagy szállodaazonosító az oldalon (3 próbálkozás, utolsó válasz 0 bájt)"
+  },
+  {
+   "id": "7",
+   "szallas": "Tölgy kabin",
+   "motor": "dopbsp",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 0,
+   "foglalt": 0,
+   "szabad": 60,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 2.0
+  },
+  {
+   "id": "8",
+   "szallas": "BörzsönyPagony",
+   "motor": "wpbs",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 10,
+   "foglalt": 19,
+   "szabad": 41,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 5.6
+  },
+  {
+   "id": "9",
+   "szallas": "LombTerasz",
+   "motor": "resnweb",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található sid vagy szállodaazonosító az oldalon (3 próbálkozás, utolsó válasz 0 bájt)"
+  },
+  {
+   "id": "15",
+   "szallas": "Medvetalp Vendégház",
+   "motor": "wpbs",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 7,
+   "foglalt": 43,
+   "szabad": 17,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 11.9
+  },
+  {
+   "id": "16",
+   "szallas": "Mesebeli Vendégház",
+   "motor": "mesebeli",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található unavailableRanges az oldalon"
+  },
+  {
+   "id": "17",
+   "szallas": "Mesebeli ház",
+   "motor": "mesebeli",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található unavailableRanges az oldalon"
+  },
+  {
+   "id": "18",
+   "szallas": "Kiskalács vendégház",
+   "motor": "mphb",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található MotoPress (MPHB) adat az oldalon"
+  },
+  {
+   "id": "19",
+   "szallas": "Moodhouse 2623",
+   "motor": "resnweb",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található sid vagy szállodaazonosító az oldalon (3 próbálkozás, utolsó válasz 0 bájt)"
+  },
+  {
+   "id": "21",
+   "szallas": "Green House – why not",
+   "motor": "appartman",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 13,
+   "foglalt": 42,
+   "szabad": 18,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 0.7
+  },
+  {
+   "id": "22",
+   "szallas": "Csuszka Vendégház",
+   "motor": "nem_merheto",
+   "eredmeny": "nincs bekötve"
+  },
+  {
+   "id": "23",
+   "szallas": "Vadlesen Vendégház",
+   "motor": "vadlesen",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 9,
+   "foglalt": 36,
+   "szabad": 24,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 1.7
+  },
+  {
+   "id": "24",
+   "szallas": "Forest Chill",
+   "motor": "resnweb",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található sid vagy szállodaazonosító az oldalon (3 próbálkozás, utolsó válasz 0 bájt)"
+  },
+  {
+   "id": "25",
+   "szallas": "Oaklounge Apartman",
+   "motor": "appartman",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 4,
+   "foglalt": 21,
+   "szabad": 39,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 0.5
+  },
+  {
+   "id": "26",
+   "szallas": "Vörösbegy Vendégház",
+   "motor": "resnweb",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található sid vagy szállodaazonosító az oldalon (3 próbálkozás, utolsó válasz 0 bájt)"
+  },
+  {
+   "id": "27",
+   "szallas": "Lombkabin",
+   "motor": "cozystay",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 13,
+   "foglalt": 46,
+   "szabad": 1,
+   "zarva": 13,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 3.2
+  },
+  {
+   "id": "28",
+   "szallas": "MÁK Kismaros",
+   "motor": "resnweb",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található sid vagy szállodaazonosító az oldalon (3 próbálkozás, utolsó válasz 0 bájt)"
+  },
+  {
+   "id": "29",
+   "szallas": "Rókavölgy",
+   "motor": "wpbs",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található WP Booking System naptár az oldalon"
+  },
+  {
+   "id": "30",
+   "szallas": "e-Pagony vendégház",
+   "motor": "wpbs",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található WP Booking System naptár az oldalon"
+  },
+  {
+   "id": "31",
+   "szallas": "Csertölgy Villa & Home",
+   "motor": "mphb",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található MotoPress (MPHB) adat az oldalon"
+  },
+  {
+   "id": "32",
+   "szallas": "Pinewood Cabin",
+   "motor": "wpbs",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 7,
+   "foglalt": 16,
+   "szabad": 44,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 5.1
+  },
+  {
+   "id": "33",
+   "szallas": "Maja Erdei Pihenőház",
+   "motor": "nem_merheto",
+   "eredmeny": "nincs bekötve"
+  },
+  {
+   "id": "34",
+   "szallas": "Fészek Lombház",
+   "motor": "mphb",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található MotoPress (MPHB) adat az oldalon"
+  },
+  {
+   "id": "35",
+   "szallas": "VELLESZ",
+   "motor": "wpbc",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található WP Booking Calendar naptár az oldalon"
+  },
+  {
+   "id": "36",
+   "szallas": "PompaDúr",
+   "motor": "wpbc",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található WP Booking Calendar naptár az oldalon"
+  },
+  {
+   "id": "37",
+   "szallas": "DÉZSAVŰ",
+   "motor": "wpbc",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található WP Booking Calendar naptár az oldalon"
+  },
+  {
+   "id": "38",
+   "szallas": "myIKIGAI",
+   "motor": "appartman",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 9,
+   "foglalt": 25,
+   "szabad": 35,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 0.6
+  },
+  {
+   "id": "39",
+   "szallas": "Tölgyudvar Vendégház",
+   "motor": "wpbc",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 14,
+   "foglalt": 46,
+   "szabad": 14,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 6.3
+  },
+  {
+   "id": "40",
+   "szallas": "Villa Arbora",
+   "motor": "wpbs",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található WP Booking System naptár az oldalon"
+  },
+  {
+   "id": "41",
+   "szallas": "Woodland Lodge",
+   "motor": "resnweb",
+   "eredmeny": "hiba",
+   "hiba": "RuntimeError: nem található sid vagy szállodaazonosító az oldalon (3 próbálkozás, utolsó válasz 0 bájt)"
+  },
+  {
+   "id": "42",
+   "szallas": "Édenliget Vendégház",
+   "motor": "appartman",
+   "eredmeny": "ok",
+   "napok": 60,
+   "foglalt_14": 6,
+   "foglalt": 18,
+   "szabad": 42,
+   "zarva": 0,
+   "reszben": 0,
+   "ismeretlen": 0,
+   "ido_s": 0.5
+  }
+ ]
+}
